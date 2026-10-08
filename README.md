@@ -17,3 +17,15 @@ Scripts for the pan-NLRome analysis of 46 Lamiaceae genomes (NLR identification,
 | HyPhy | 2.5.100 (MP) | FEL / MEME |
 | AlphaFold | 3 (AlphaFold Server) | |
 | Foldseek | 10.941cd33 | |
+## Pipeline and folders
+
+| Folder | Purpose |
+|---|---|
+| `qc/` | Assembly statistics (SeqKit) and gene-space completeness (BUSCO) |
+| `annotation/` | NLR identification (NLR-Annotator), protein extraction (miniprot, getorf), ANNEVO-based annotation, per-genome summary tables |
+| `method_comparison/` | Comparison of NLR detection methods |
+| `orthology/` | Orthogroup inference (OrthoFinder) and tandem-duplication analysis |
+| `phylogeny/` | Alignments and maximum-likelihood trees (MAFFT, IQ-TREE) |
+| `selection/` | Codon alignments and selection tests (HyPhy FEL/MEME) |
+| `structure/` | Structural comparison of NLR candidates (AlphaFold, Foldseek) |
+| `validation/` | Validation against the RefPlantNLR reference set (BLAST) |
