@@ -1,5 +1,6 @@
 # lamiaceae-pan-nlrome
 Scripts for the pan-NLRome analysis of 46 Lamiaceae genomes (NLR identification, orthology, phylogeny, selection and structural analyses).
+Conda environment specifications are provided in `env_specs/`.
 ## Software versions
 
 | Tool | Version | Notes |
