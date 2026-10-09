@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Script de diagnostico: para OG0000038, muestra el 'diff' real
-(diferencia en aminoacidos) del MEJOR candidato encontrado para
-CADA secuencia, incluso las que fallan el filtro de <=10 aa.
-Esto permite clasificar los fallos en "pequenos" (arreglables
-ampliando el margen) vs "grandes" (requieren revision manual).
+Diagnostic script: for OG0000038, displays the actual ‘diff’
+(difference in amino acids) of the BEST candidate found for
+EACH sequence, including those that fail the <=10 aa filter.
+This allows errors to be classified as “minor” (fixable
+by widening the margin) vs. “major” (requiring manual review).
 """
 import sys, os, glob, re, subprocess
 from collections import defaultdict
