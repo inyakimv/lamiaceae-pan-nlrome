@@ -18,8 +18,9 @@ Conda environment specifications are provided in `env_specs/`.
 | EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` (protein ORFs); `-find 3 -minsize 300` (nucleotide recovery in `selection/`) |
 | Biopython | 1.87 | custom scripts |
 | OrthoFinder | 3.1.5 | `orthofinder -f <proteomes> -t 32 -a 32` |
-| MAFFT | 7.490 (2021/Oct/30) | |
-| MAFFT (OrthoFinder environment) | 7.525 (2024/Mar/13) | alignments run inside OrthoFinder (orthogroup alignments of Section 4.3) |
+| FAMSA (OrthoFinder environment) | 2.4.1 | protein alignments run inside OrthoFinder (orthogroup alignments of Section 4.3) |
+| DIAMOND (OrthoFinder environment) | 2.2.2 | sequence searches run inside OrthoFinder |
+| FastTree (OrthoFinder environment) | 2.2.0 | gene trees run inside OrthoFinder (not used for Section 4.3) |
 | IQ-TREE | 3.1.2 | `-m MFP -bb 1000 -nt 4` (gene trees of Section 4.3) |
 | HyPhy | 2.5.100 (MP) | FEL / MEME, default parameters |
 | AlphaFold | 3 (AlphaFold Server) | |
@@ -39,7 +40,7 @@ Conda environment specifications are provided in `env_specs/`.
 | `orthology/` | Orthogroup inference (OrthoFinder) and tandem-duplication analysis |
 | `ploidy/` | Ploidy assignment per genome (CCDB, literature, assembly structure) |
 | `figures/` | Scripts that generate the figures (white background, no gridlines) |
-| `phylogeny/` | Alignments and maximum-likelihood trees (MAFFT, IQ-TREE) |
+| `phylogeny/` | Scripts to build and prune the orthogroup maximum-likelihood trees (IQ-TREE; protein alignments from OrthoFinder) |
 | `selection/` | Codon alignments and selection tests (HyPhy FEL/MEME) |
 | `structure/` | Structural comparison of NLR candidates (AlphaFold, Foldseek) |
 | `validation/` | Validation against the RefPlantNLR reference set (BLAST) |
