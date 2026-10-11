@@ -42,22 +42,25 @@ Conda environment specifications are provided in `env_specs/`.
 | `results_tables/` | Result tables (e.g. Mash distances) |
 | `output/figures/` | Source data behind each figure panel (CSV) |
 
-## Scripts for Section 4.1 and their Annex entries
+## Scripts by results section
 
-| Script | What it does | Annex |
+### 4.1 Size and tandem organization of the NLR repertoire across 46 Lamiaceae genomes
+
+| Script | What it does | Output |
 |---|---|---|
-| `qc/qc_seqkit_busco_flat.sh` | SeqKit statistics and BUSCO for each assembly | A13 |
-| `qc/verify_seqkit_columns.sh` | Checks the SeqKit v2.13.0 column positions (N50, GC) | A13 |
-| `qc/mash_mentha_check.sh` | Mash sketches and pairwise distances among *Mentha* assemblies | A14 |
-| `qc/qc_table2_and_correlations.py` | Table 2, outlier fence and Pearson correlations | A15 |
-| `qc/combine_qc_nlr_fixed.sh` | Merges QC statistics with NLR counts (`data/qc_summary.csv`) | A15 |
-| `ploidy/fetch_ploidy_ccdb.py` | Chromosome-number records from CCDB | A16 |
-| `ploidy/assembly_chromosome_counts.py` | Sequence counts per assembly (including sequences of at least 1 Mb) | A16 |
-| `ploidy/build_ploidy_worksheet.py` | Combines the evidence into one worksheet | A16 |
-| `ploidy/make_binary_ploidy.py` | Diploid / polyploid table (`data/ploidy_binary.csv`) | A16 |
-| `figures/plot_nlr_ploidy.py` | Fig. 1a, NLR candidates per genome on the species tree, coloured by ploidy | A16 |
-| `orthology/analyze_tandem_46species.py` | Tandem clusters of the most expanded NLR orthogroup per species (threshold 500 kb) | A17 |
-| `orthology/tandem_summary_stats.py` | Median, range and correlations for the tandem analysis | A17 |
-| `figures/plot_tandem_hist.py` | Fig. 1b, distribution of tandem-clustered loci | A17 |
+| `qc/qc_seqkit_busco_flat.sh` | SeqKit statistics and BUSCO for each assembly | `data/qc_summary.csv` |
+| `qc/verify_seqkit_columns.sh` | Checks the SeqKit v2.13.0 column positions (N50, GC) | printed check |
+| `qc/mash_mentha_check.sh` | Mash sketches and pairwise distances among *Mentha* assemblies and reference species | `results_tables/mash_mentha_check.tsv` |
+| `qc/combine_qc_nlr_fixed.sh` | Merges QC statistics with NLR counts | merged QC and NLR table |
+| `qc/qc_table2_and_correlations.py` | Assembly QC summary table, outlier fence and Pearson correlations (genome size vs NLR count and density) | printed tables |
+| `ploidy/fetch_ploidy_ccdb.py` | Chromosome-number records from the Chromosome Counts Database | `data/ccdb_summary.csv` |
+| `ploidy/assembly_chromosome_counts.py` | Sequence counts per assembly, including sequences of at least 1 Mb | `data/assembly_chromosome_counts.csv` |
+| `ploidy/build_ploidy_worksheet.py` | Combines CCDB, assembly and BUSCO evidence into one worksheet | `data/ploidy_worksheet.csv` |
+| `ploidy/make_binary_ploidy.py` | Diploid / polyploid table | `data/ploidy_binary.csv` |
+| `figures/plot_nlr_ploidy.py` | NLR candidates per genome next to the species tree, coloured by ploidy | `output/figures/Fig1a_source_data.csv` |
+| `orthology/run_orthofinder.sh` | Orthogroup inference with OrthoFinder (run `Results_Jul07`) | OrthoFinder results |
+| `orthology/analyze_tandem_46species.py` | Tandem clusters of the most expanded NLR orthogroup per species (threshold 500 kb) | `data/tandem_analysis_46species.csv` |
+| `orthology/tandem_summary_stats.py` | Median, range and correlations for the tandem analysis | printed summary |
+| `figures/plot_tandem_hist.py` | Distribution of tandem-clustered loci across species | `output/figures/Fig1b_tandem_hist_source_data.csv` |
 
-`orthology/run_orthofinder.sh` runs OrthoFinder (run `Results_Jul07`).
+*(Tables for the next results sections are added here.)*
