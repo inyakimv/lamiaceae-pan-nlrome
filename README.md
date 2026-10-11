@@ -15,12 +15,13 @@ Conda environment specifications are provided in `env_specs/`.
 | HMMER (hmmscan) | 3.3.2 | default parameters, `--cpu 8` |
 | Pfam | 37.1 | NB-ARC, LRR_1/3/4/8, TIR, TIR_2 profiles |
 | miniprot | 0.18-r281 | default parameters (`--gff`) |
-| EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` |
+| EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` (protein ORFs); `-find 3 -minsize 300` (nucleotide recovery in `selection/`) |
 | Biopython | 1.87 | custom scripts |
 | OrthoFinder | 3.1.5 | `orthofinder -f <proteomes> -t 32 -a 32` |
 | MAFFT | 7.490 (2021/Oct/30) | |
-| IQ-TREE | 3.1.2 | |
-| HyPhy | 2.5.100 (MP) | FEL / MEME |
+| MAFFT (OrthoFinder environment) | 7.525 (2024/Mar/13) | alignments run inside OrthoFinder (orthogroup alignments of Section 4.3) |
+| IQ-TREE | 3.1.2 | `-m MFP -bb 1000 -nt 4` (gene trees of Section 4.3) |
+| HyPhy | 2.5.100 (MP) | FEL / MEME, default parameters |
 | AlphaFold | 3 (AlphaFold Server) | |
 | Foldseek | 10.941cd33 | |
 | Python | 3.11.13 | custom scripts |
@@ -81,6 +82,20 @@ Conda environment specifications are provided in `env_specs/`.
 | `figures/plot_method_comparison.py` | Both panels of the comparison figure; Pearson and Spearman correlations, Cliff's delta | `output/figures/Fig2_method_comparison_source_data_a.csv`, `..._b_summary.csv` |
 
 `method_comparison/compare_nlr_methods.py` is the first version of the comparison (it counted proteins with NB-ARC only) and is kept for reference.
+
+### 4.3 Positive selection in five NLR orthogroups across ploidy levels and degrees of expansion concentration
+
+| Script | What it does | Output |
+|---|---|---|
+| `selection/prepare_hyphy_input_en.py` | Recovers the in-frame nucleotide sequence of each protein (miniprot GFF or `getorf`) and threads it into the OrthoFinder protein alignment | `<OG>_codon_alignment.fasta` |
+| `selection/prune_tree_to_alignment.py` | Prunes the IQ-TREE gene tree to the sequences of the codon alignment | `<OG>_pruned.treefile` |
+| `selection/run_hyphy_en.sh` | HyPhy FEL and MEME on the codon alignment and pruned tree (default parameters) | `<OG>_FEL.json`, `<OG>_MEME.json` |
+| `selection/summarize_hyphy_results_en.py` | Site counts and significant sites from the FEL and MEME output | `hyphy_summary.csv`, `hyphy_significant_sites.csv` |
+| `selection/selection_summary.py` | Copies kept and lost, focal species, ploidy, informative codons and FEL/MEME counts per orthogroup | `data/selection_summary.csv`, `data/selection_summary_composition.csv` |
+| `figures/plot_selection_summary.py` | Fig. 3: sites under selection per orthogroup | `output/figures/Fig3_selection_source_data.csv` |
+| `figures/plot_og_tree.py` | Fig. 4: circular gene tree of OG0000000 coloured by species, with the per-species block table | `output/figures/Fig4_OG0000000_tree_species_blocks.csv`, `output/figures/Fig4_OG0000000_tree_tips.csv` |
+
+The codon alignment, pruned tree and HyPhy output of each of the five orthogroups are in `data/selection/<OG>/`, and the tree of OG0000000 used for Fig. 4 is `data/OG0000000.treefile`.
 
 *(Tables for the next results sections are added here.)*
 

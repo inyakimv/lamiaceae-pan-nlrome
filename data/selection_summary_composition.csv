@@ -1,0 +1,35 @@
+orthogroup,species,ploidy,copies_original,copies_analysed,scaffolds,top_scaffold_pct
+OG0000000,Lavandula angustifolia,diploid,1,0,0,
+OG0000000,Schizonepeta tenuifolia,diploid,1,1,1,100.0
+OG0000000,Dracocephalum rupestre,diploid,3,3,2,66.7
+OG0000000,Agastache rugosa,diploid,2,2,1,100.0
+OG0000000,Agastache foeniculum,diploid,1,0,0,
+OG0000000,Glechoma hederacea,polyploid,3,3,2,66.7
+OG0000000,Drepanocaryum sewerzowii,diploid,3,3,2,66.7
+OG0000000,Marmoritis complanata,diploid,1,1,1,100.0
+OG0000000,Lycopus lucidus,diploid,11,6,3,50.0
+OG0000000,Salvia rosmarinus,diploid,1,0,0,
+OG0000000,Salvia divinorum,diploid,30,28,3,92.9
+OG0000000,Salvia hispanica,diploid,13,12,6,58.3
+OG0000000,Salvia splendens,polyploid,9,8,4,62.5
+OG0000000,Salvia miltiorrhiza,diploid,27,25,4,80.0
+OG0000000,Ocimum basilicum,polyploid,16,15,3,53.3
+OG0000000,Coleus hadiensis,diploid,7,7,6,28.6
+OG0000000,Plectranthus ornatus,diploid,40,28,7,39.3
+OG0000000,Isodon lophanthoides,diploid,35,32,3,93.8
+OG0000029,Mentha x piperita,polyploid,26,23,8,26.1
+OG0000029,Mentha aquatica,polyploid,6,4,2,50.0
+OG0000029,Mentha suaveolens,diploid,13,9,2,88.9
+OG0000029,Mentha longifolia,diploid,14,10,3,70.0
+OG0000018,Mentha x piperita,polyploid,35,12,5,33.3
+OG0000018,Mentha aquatica,polyploid,15,7,3,57.1
+OG0000018,Mentha longifolia,diploid,8,2,1,100.0
+OG0000018,Mentha suaveolens,diploid,9,4,1,100.0
+OG0000018,Lycopus lucidus,diploid,1,0,0,
+OG0000018,Salvia miltiorrhiza,diploid,1,1,1,100.0
+OG0000008,Galeopsis tetrahit,polyploid,91,28,2,57.1
+OG0000038,Scutellaria barbata,diploid,1,1,1,100.0
+OG0000038,Thymus mandschuricus,diploid,1,1,1,100.0
+OG0000038,Salvia divinorum,diploid,4,1,1,100.0
+OG0000038,Salvia hispanica,diploid,37,22,4,86.4
+OG0000038,Salvia splendens,polyploid,12,8,4,50.0

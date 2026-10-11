@@ -1,0 +1,6 @@
+orthogroup,copies_original,copies_analysed,genomes_analysed,focal_species,focal_ploidy,focal_copies_original,focal_share_pct,polyploid_copies_pct,codons,empty_codons,informative_codons,FEL_positive,FEL_negative,MEME,shared_FEL_MEME,FEL_positive_informative,MEME_informative,FEL_positive_pct_informative,MEME_pct_informative
+OG0000000,204,174,15,Plectranthus ornatus,diploid,40,19.6,14.9,811,15,702,78,145,293,74,76,284,10.8,40.5
+OG0000029,59,46,4,Mentha x piperita,polyploid,26,44.1,58.7,811,63,696,75,90,213,67,75,207,10.8,29.7
+OG0000018,69,26,5,Mentha x piperita,polyploid,35,50.7,73.1,811,59,660,54,34,119,46,54,114,8.2,17.3
+OG0000008,91,28,1,Galeopsis tetrahit,polyploid,91,100.0,100.0,811,27,572,44,46,128,39,34,98,5.9,17.1
+OG0000038,55,33,5,Salvia hispanica,diploid,37,67.3,24.2,1204,30,743,44,80,126,38,32,91,4.3,12.2
