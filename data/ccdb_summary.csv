@@ -1,0 +1,47 @@
+species,n_records,observed_2n,mode_2n,x,ploidy_proposed,flag
+Ocimum basilicum,42,16 (x3); 30 (x1); 48 (x30); 52 (x2); 54 (x2); 68 (x1); 72 (x2),48,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Ajuga reptans,36,16 (x1); 32 (x35); 64 (x2),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Ajuga chamaepitys,34,28 (x30); 30 (x4),28,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Pogostemon cablin,2,32 (x1); 64 (x1),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Schizonepeta tenuifolia,1,24 (x1),24,,,no base number x given for this species or genus
+Scutellaria minor,9,28 (x5),28,,,no base number x given for this species or genus
+Thymus quinquecostatus,4,26 (x2); 28 (x2),26,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Lycopus lucidus,7,22 (x7),22,,,no base number x given for this species or genus
+Stachys alpina,26,30 (x26),30,,,no base number x given for this species or genus
+Clinopodium barosmum,0,,,,,no CCDB records - look up the genome paper
+Salvia rosmarinus,32,20 (x2); 24 (x31),24,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Teucrium scorodonia,40,32 (x23); 33 (x1); 34 (x12),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Coleus hadiensis,9,28 (x2); 30 (x5),30,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Lavandula angustifolia,38,12 (x2); 34 (x2); 36 (x4); 42 (x1); 48 (x7); 50 (x8); 54 (x11),54,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Scutellaria barbata,6,24 (x3); 26 (x3),26,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Agastache rugosa,9,18 (x9),18,9.0,2x,
+Salvia sclarea,48,22 (x47); 38 (x1),22,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Plectranthus ornatus,1,32 (x1),32,,,no base number x given for this species or genus
+Isodon lophanthoides,21,24 (x21),24,,,no base number x given for this species or genus
+Galeopsis tetrahit,48,16 (x1); 30 (x1); 32 (x49),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Scutellaria baicalensis,6,16 (x2); 18 (x2); 32 (x2),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Mentha longifolia,146,18 (x16); 24 (x81); 27 (x1); 33 (x1); 36 (x8); 48 (x17); 54 (x4),24,12.0,2x,several 2n values - check which applies to the sequenced individual
+Drepanocaryum sewerzowii,1,16 (x1),16,,,no base number x given for this species or genus
+Mentha suaveolens,28,18 (x3); 24 (x23); 42 (x1),24,12.0,2x,several 2n values - check which applies to the sequenced individual
+Salvia divinorum,2,22 (x2),22,,,no base number x given for this species or genus
+Salvia miltiorrhiza,0,,,,,no CCDB records - look up the genome paper
+Phlomoides rotata,0,,,,,no CCDB records - look up the genome paper
+Salvia hispanica,7,12 (x8),12,,,no base number x given for this species or genus
+Dracocephalum rupestre,0,,,,,no CCDB records - look up the genome paper
+Elsholtzia splendens,2,18 (x2),18,,,no base number x given for this species or genus
+Glechoma hederacea,72,18 (x16); 24 (x3); 36 (x49),36,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Thymus mandschuricus,1,24 (x1),24,,,no base number x given for this species or genus
+Prunella vulgaris,146,24 (x1); 28 (x125); 29 (x1); 30 (x1); 32 (x15),28,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Salvia splendens,27,16 (x3); 20 (x1); 32 (x3); 44 (x23),44,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Mentha x piperita,28,36 (x1); 42 (x1); 48 (x4); 72 (x6); 84 (x1); 96 (x1); 120 (x1),72,12.0,6x,several 2n values - check which applies to the sequenced individual
+Mentha aquatica,70,36 (x4); 84 (x1); 96 (x57); 108 (x1),96,12.0,8x,several 2n values - check which applies to the sequenced individual
+Agastache foeniculum,5,18 (x6),18,9.0,2x,
+Lamium purpureum,90,14 (x2); 18 (x62); 36 (x22),18,9.0,2x,several 2n values - check which applies to the sequenced individual
+Marmoritis complanata,0,,,,,no CCDB records - look up the genome paper
+Teucrium botrys,19,10 (x2); 32 (x16),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Melittis melissophyllum,29,10 (x1); 24 (x2); 30 (x15); 36 (x2),30,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Scutellaria galericulata,48,28 (x1); 30 (x11); 31 (x2); 32 (x26),32,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
+Lamium amplexicaule,79,18 (x80),18,9.0,2x,
+Callicarpa nudiflora,0,,,,,no CCDB records - look up the genome paper
+Paraleonurus japonicus,10,20 (x9),20,,,no base number x given for this species or genus
+Ballota nigra,60,18 (x2); 20 (x24); 22 (x35),22,,,several 2n values - check which applies to the sequenced individual | no base number x given for this species or genus
