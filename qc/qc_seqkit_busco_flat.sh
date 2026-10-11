@@ -62,8 +62,8 @@ for FNA_GZ in "${FILES[@]}"; do
     STATS=$(seqkit stats -a -T "$FNA" | tail -n1)
     NUM_SEQS=$(echo "$STATS" | awk -F'\t' '{print $4}')
     SUM_LEN=$(echo "$STATS"  | awk -F'\t' '{print $5}')
-    N50=$(echo "$STATS"      | awk -F'\t' '{print $12}')
-    GC=$(echo "$STATS"       | awk -F'\t' '{print $NF}')
+    N50=$(echo "$STATS"      | awk -F'\t' '{print $13}')
+    GC=$(echo "$STATS"       | awk -F'\t' '{print $18}')
 
     # ---------------------------
     # 2. BUSCO
