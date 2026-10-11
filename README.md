@@ -10,6 +10,10 @@ Conda environment specifications are provided in `env_specs/`.
 | BUSCO | 5.7.1 | genome mode, lineage eudicots_odb10, default parameters |
 | Mash | 2.3 | `-k 21 -s 1000000 -S 42` (Mentha identity check) |
 | NLR-Annotator | 2.1b | default parameters |
+| ANNEVO | 2.3.2 | `-l Magnoliopsida -t 24`, GPU; Python 3.10.20, PyTorch 2.1.0 (CUDA 12.1) |
+| AGAT | 1.7.0 | `agat_sp_extract_sequences.pl -p` |
+| HMMER (hmmscan) | 3.3.2 | default parameters, `--cpu 8` |
+| Pfam | 37.1 | NB-ARC, LRR_1/3/4/8, TIR, TIR_2 profiles |
 | miniprot | 0.18-r281 | default parameters (`--gff`) |
 | EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` |
 | Biopython | 1.87 | custom scripts |
@@ -29,7 +33,7 @@ Conda environment specifications are provided in `env_specs/`.
 | Folder | Purpose |
 |---|---|
 | `qc/` | Assembly statistics (SeqKit), gene-space completeness (BUSCO), Mash identity check and Table 2 |
-| `annotation/` | NLR identification (NLR-Annotator), protein extraction (miniprot, getorf), ANNEVO-based annotation, per-genome summary tables |
+| `annotation/` | NLR identification (NLR-Annotator), ANNEVO gene prediction, protein extraction, HMMER domain search and per-genome summary tables |
 | `method_comparison/` | Comparison of NLR detection methods |
 | `orthology/` | Orthogroup inference (OrthoFinder) and tandem-duplication analysis |
 | `ploidy/` | Ploidy assignment per genome (CCDB, literature, assembly structure) |
@@ -63,4 +67,20 @@ Conda environment specifications are provided in `env_specs/`.
 | `orthology/tandem_summary_stats.py` | Median, range and correlations for the tandem analysis | printed summary |
 | `figures/plot_tandem_hist.py` | Distribution of tandem-clustered loci across species | `output/figures/Fig1b_tandem_hist_source_data.csv` |
 
+### 4.2 Cross-validation between NLR-Annotator and ANNEVO+HMMER
+
+| Script | What it does | Output |
+|---|---|---|
+| `annotation/run_annevo_batch.sh` | Gene prediction with ANNEVO for each genome | `<genome>.annevo.gff3` |
+| `annotation/extract_annevo_proteins.sh` | Protein sequences from the ANNEVO gene models (AGAT) | `<genome>.annevo_proteins.fasta` |
+| `annotation/run_hmmer_nlr_search.sh` | `hmmscan` of the proteins against the NLR profiles (default parameters) | `<genome>.domtblout` |
+| `annotation/nlr_profiles.hmm` | Seven Pfam profiles: NB-ARC, LRR_1, LRR_3, LRR_4, LRR_8, TIR, TIR_2 | profile database |
+| `method_comparison/compare_nlr_methods_refined.py` | Per-species complete-like candidates (NB-ARC and at least one LRR in the same protein) next to NLR-Annotator counts | `data/nlr_method_comparison_detailed.csv` |
+| `method_comparison/compare_nlr_loci.py` | Overlap of NLR-Annotator loci and ANNEVO+HMMER genes (same scaffold, at least one shared base, strand ignored) | `data/nlr_locus_comparison.csv` |
+| `method_comparison/gene_size_distribution.py` | Locus length of each method, pooled over genomes; Mann-Whitney U test | `data/gene_lengths_nlr_annotator.csv`, `data/gene_lengths_annevo.csv` |
+| `figures/plot_method_comparison.py` | Both panels of the comparison figure; Pearson and Spearman correlations, Cliff's delta | `output/figures/Fig2_method_comparison_source_data_a.csv`, `..._b_summary.csv` |
+
+`method_comparison/compare_nlr_methods.py` is the first version of the comparison (it counted proteins with NB-ARC only) and is kept for reference.
+
 *(Tables for the next results sections are added here.)*
+
