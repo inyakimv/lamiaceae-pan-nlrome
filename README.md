@@ -102,7 +102,7 @@ The codon alignment, pruned tree and HyPhy output of each of the five orthogroup
 
 
 
-### 4.4 COMPUTATIONAL VALIDATION AGAINST REFPLANTNLR
+### 4.4 Computational validation against RefPlantNLR
 
 | Script | What it does | Output |
 |---|---|---|
