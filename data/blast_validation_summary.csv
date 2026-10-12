@@ -1,0 +1,479 @@
+orthogroup,species,query,best_hit_gene,reference_group,pident,alignment_length,query_length,coverage,evalue,bitscore
+OG0000000,Lavandula angustifolia,OG0000000|GCA_028984105_1_Lavandula_angustifolia_genomic_GCA_028984105.1|CM054806.1_nlr12|getorf,Rpi-amr1e-2307,Rpi-amr1,32.824,786,740,1.062,1.49e-111,357.0
+OG0000000,Schizonepeta tenuifolia,OG0000000|GCA_029490685_1_Schizonepeta_tenuifolia_genomic_GCA_029490685.1|CM055960.1_nlr15|getorf,Rpi-amr1e-3408,Rpi-amr1,33.379,734,695,1.056,4.55e-104,335.0
+OG0000000,Agastache rugosa,OG0000000|GCA_031470985_1_Agastache_rugosa_genomic_GCA_031470985.1|CM062603.1_nlr41|getorf,Rpi-amr1e-1032,Rpi-amr1,32.595,767,727,1.055,3.08e-104,337.0
+OG0000000,Agastache rugosa,OG0000000|GCA_031470985_1_Agastache_rugosa_genomic_GCA_031470985.1|CM062603.1_nlr42|getorf,Rpi-amr1e,Rpi-amr1,33.201,756,691,1.094,1.92e-104,337.0
+OG0000000,Salvia rosmarinus,OG0000000|GCA_036937905_1_Salvia_rosmarinus_genomic_GCA_036937905.1|CM072817.1_nlr8|miniprot,Rpa1,other,34.625,774,774,1.0,7.21e-117,370.0
+OG0000000,Dracocephalum rupestre,OG0000000|GCA_040181865_1_Dracocephalum_rupestre_genomic_GCA_040181865.1|CM079338.1_nlr44|getorf,Rpi-amr1e-3408,Rpi-amr1,32.322,758,699,1.084,6.65e-114,362.0
+OG0000000,Dracocephalum rupestre,OG0000000|GCA_040181865_1_Dracocephalum_rupestre_genomic_GCA_040181865.1|CM079340.1_nlr51|getorf,Rpi-amr1e-3408,Rpi-amr1,32.763,760,700,1.086,4.16e-109,349.0
+OG0000000,Dracocephalum rupestre,OG0000000|GCA_040181865_1_Dracocephalum_rupestre_genomic_GCA_040181865.1|CM079340.1_nlr53|getorf,Rpi-amr1e-3408,Rpi-amr1,32.763,760,700,1.086,4.16e-109,349.0
+OG0000000,Drepanocaryum sewerzowii,OG0000000|GCA_040764665_1_Drepanocaryum_sewerzowii_genomic_GCA_040764665.1|CM081176.1_nlr53|getorf,Rpi-amr1e-3408,Rpi-amr1,33.791,728,699,1.041,3.60e-106,341.0
+OG0000000,Drepanocaryum sewerzowii,OG0000000|GCA_040764665_1_Drepanocaryum_sewerzowii_genomic_GCA_040764665.1|CM081177.1_nlr10|getorf,Rpi-amr1e,Rpi-amr1,40.369,379,426,0.89,4.02e-98,311.0
+OG0000000,Drepanocaryum sewerzowii,OG0000000|GCA_040764665_1_Drepanocaryum_sewerzowii_genomic_GCA_040764665.1|CM081177.1_nlr8|getorf,Rpi-amr1e-3408,Rpi-amr1,30.968,775,700,1.107,1.16e-104,337.0
+OG0000000,Marmoritis complanata,OG0000000|GCA_040764675_1_Marmoritis_complanata_genomic_GCA_040764675.1|CM081168.1_nlr30|getorf,Rpi-amr1e-1032,Rpi-amr1,30.545,789,731,1.079,1.48e-104,338.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100898.1_nlr26|getorf,Rpa1,other,34.463,708,745,0.95,1.39e-112,358.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100900.1_nlr85|getorf,NRC0,NRC0,34.245,695,744,0.934,3.19e-116,367.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr10|getorf,NRC0,NRC0,35.093,644,610,1.056,2.88e-102,326.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr12|getorf,Rpi-amr1e-3408,Rpi-amr1,33.733,750,701,1.07,1.89e-113,361.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr25|getorf,NRC0,NRC0,38.205,390,395,0.987,3.99e-76,248.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr26|getorf,NRC0,NRC0,34.167,720,702,1.026,1.24e-118,372.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr3|getorf,NRC0,NRC0,36.504,389,368,1.057,4.12e-69,228.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr6|getorf,NRC0,NRC0,34.75,659,679,0.971,3.31e-112,354.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr7|getorf,Rpi-amr1e,Rpi-amr1,35.563,284,281,1.011,2.99e-56,190.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100914.1_nlr9|getorf,NRC0,NRC0,30.312,320,313,1.022,1.80e-33,125.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr17|getorf,NRC0,NRC0,35.156,640,647,0.989,4.13e-109,345.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr18|getorf,NRC0,NRC0,30.645,310,332,0.934,1.67e-26,105.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr19|getorf,Rpi-amr1e-1101,Rpi-amr1,35.78,218,233,0.936,3.53e-42,148.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr2|getorf,Rpi-amr1e-2300,Rpi-amr1,45.251,179,187,0.957,1.86e-49,167.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr5|getorf,NRC0,NRC0,33.668,698,704,0.991,3.96e-118,371.0
+OG0000000,Ocimum basilicum,OG0000000|GCA_046254565_1_Ocimum_basilicum_genomic_GCA_046254565.1|CM100915.1_nlr7|getorf,Rpi-amr1e-3408,Rpi-amr1,33.6,750,701,1.07,6.59e-112,357.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113658.1_nlr136|getorf,Rpi-amr1e-3408,Rpi-amr1,33.729,759,696,1.091,5.18e-112,357.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr100|getorf,Rpi-amr1e-1032,Rpi-amr1,34.256,759,691,1.098,1.70e-115,366.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr13|getorf,Rpi-amr1e-2307,Rpi-amr1,33.504,779,724,1.076,1.12e-115,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr14|getorf,Rpi-amr1e-2307,Rpi-amr1,34.343,693,638,1.086,1.15e-103,333.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr15|getorf,Rpi-amr1e-2307,Rpi-amr1,32.828,792,730,1.085,1.16e-110,354.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr16|getorf,Rpi-amr1e-2307,Rpi-amr1,33.154,742,679,1.093,1.63e-105,339.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr17|getorf,Rpi-amr1e-2307,Rpi-amr1,32.955,792,730,1.085,6.72e-112,357.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr18|getorf,Rpi-amr1e,Rpi-amr1,34.065,775,700,1.107,7.85e-112,357.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr19|getorf,Rpi-amr1e,Rpi-amr1,33.112,752,693,1.085,1.86e-112,358.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr21|getorf,Rpi-amr1e-2307,Rpi-amr1,32.895,760,692,1.098,7.93e-108,345.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr23|getorf,NRC0,NRC0,32.874,581,557,1.043,5.24e-86,281.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr24|getorf,Rpi-amr1e-3408,Rpi-amr1,34.121,762,700,1.089,2.02e-112,358.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr26|getorf,Rpi-amr1e-2300,Rpi-amr1,34.505,768,697,1.102,6.63e-116,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr28|getorf,NRC0,NRC0,35.526,684,702,0.974,9.29e-115,362.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr29|getorf,NRC0,NRC0,34.515,536,543,0.987,1.29e-77,258.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr33|getorf,NRC0,NRC0,35.725,683,694,0.984,4.46e-116,365.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr34|getorf,Rpi-amr1e-3408,Rpi-amr1,34.206,611,570,1.072,1.18e-106,338.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr35|getorf,Rpi-amr1e-3408,Rpi-amr1,34.081,669,621,1.077,7.75e-107,340.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr54|getorf,NRC0,NRC0,34.713,749,702,1.067,1.74e-116,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr55|getorf,NRC0,NRC0,34.713,749,702,1.067,1.74e-116,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr65|getorf,NRC0,NRC0,33.52,537,547,0.982,5.44e-77,256.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr66|getorf,NRC0,NRC0,35.586,666,678,0.982,4.74e-117,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr69|getorf,Rpi-amr1e-3408,Rpi-amr1,34.067,772,726,1.063,1.99e-115,367.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr70|getorf,NRC0,NRC0,34.783,690,695,0.993,1.71e-113,358.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr71|getorf,NRC0,NRC0,34.015,685,702,0.976,1.47e-112,356.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr73|getorf,NRC0,NRC0,34.397,721,703,1.026,4.23e-112,355.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr75|getorf,NRC0,NRC0,37.056,394,388,1.015,1.75e-75,246.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr85|getorf,NRC0,NRC0,33.702,724,702,1.031,7.07e-109,346.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr86|miniprot,NRC0,NRC0,33.693,742,724,1.025,4.28e-116,366.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr88|getorf,Rpi-amr1e-3408,Rpi-amr1,34.156,770,706,1.091,4.82e-111,355.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr89|getorf,Rpi-amr1e-1032,Rpi-amr1,34.034,761,696,1.093,7.17e-118,372.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr95|getorf,NRC0,NRC0,33.716,697,702,0.993,4.03e-111,352.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr98|miniprot,Rpi-amr1e-2300,Rpi-amr1,47.66,235,233,1.009,1.88e-68,222.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113660.1_nlr99|miniprot,Rpi-amr1e-2300,Rpi-amr1,47.059,255,255,1.0,1.19e-72,234.0
+OG0000000,Isodon lophanthoides,OG0000000|GCA_049998835_1_Isodon_lophanthoides_genomic_GCA_049998835.1|CM113667.1_nlr6|getorf,NRC0,NRC0,33.911,693,703,0.986,1.42e-113,359.0
+OG0000000,Agastache foeniculum,OG0000000|GCA_054883455_1_Agastache_foeniculum_genomic_GCA_054883455.1|CM142500.1_nlr123|getorf,Rpi-amr1e-3408,Rpi-amr1,32.522,781,751,1.04,7.88e-109,350.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147016.1_nlr9|getorf,Rpi-amr1e-3408,Rpi-amr1,32.6,727,700,1.039,7.29e-108,346.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147018.1_nlr48|getorf,Rpi-amr1e-2307,Rpi-amr1,32.973,740,695,1.065,1.05e-103,335.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr28|getorf,NRC0,NRC0,35.484,589,555,1.061,2.22e-92,298.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr29|getorf,Rpi-amr1e-2307,Rpi-amr1,31.651,733,702,1.044,4.69e-104,336.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr30|getorf,Rpi-amr1e-3408,Rpi-amr1,33.194,720,695,1.036,1.67e-113,361.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr31|getorf,Rpi-amr1e-2307,Rpi-amr1,31.978,738,703,1.05,3.69e-101,328.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr33|getorf,Rpi-amr1e-2307,Rpi-amr1,33.11,746,703,1.061,1.07e-106,343.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr34|getorf,NRC3,other NRC,29.493,434,407,1.066,1.22e-39,146.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr35|getorf,Rpi-amr1e-3408,Rpi-amr1,34.503,513,521,0.985,2.32e-91,296.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr37|getorf,NRC0,NRC0,32.875,727,701,1.037,1.26e-105,338.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr54|getorf,NRC0,NRC0,35.484,589,555,1.061,2.43e-92,298.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr55|getorf,NRC0,NRC0,35.507,690,699,0.987,2.93e-113,358.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr57|getorf,Rpi-amr1e-3408,Rpi-amr1,33.333,738,722,1.022,7.74e-111,354.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr59|getorf,NRC3,other NRC,32.131,582,548,1.062,4.98e-82,270.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr60|getorf,Rpa1,other,34.243,733,698,1.05,4.41e-104,334.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr61|getorf,Rpi-amr1e-3408,Rpi-amr1,33.056,720,695,1.036,1.40e-112,358.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr62|getorf,Rpi-amr1e-2307,Rpi-amr1,31.978,738,703,1.05,8.00e-101,327.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr64|getorf,Rpi-amr1e-2307,Rpi-amr1,33.11,746,703,1.061,7.04e-107,343.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr65|getorf,NRC0,NRC0,28.995,438,407,1.076,1.39e-38,143.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr74|getorf,Rpi-amr1e,Rpi-amr1,31.78,708,701,1.01,3.78e-100,326.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr75|getorf,NRC0,NRC0,34.234,666,676,0.985,1.00e-100,324.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr76|getorf,Rpi-amr1e,Rpi-amr1,38.491,265,342,0.775,9.13e-63,211.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr78|getorf,NRC0,NRC0,33.382,686,682,1.006,3.61e-100,323.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr79|getorf,Rpi-amr1e-2307,Rpi-amr1,40.456,351,368,0.954,6.21e-85,273.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr81|getorf,NRC0,NRC0,34.638,690,702,0.983,3.95e-105,336.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr82|getorf,Rpi-amr1e-2307,Rpi-amr1,32.656,738,701,1.053,2.26e-104,337.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr83|getorf,Rpi-amr1e,Rpi-amr1,32.583,755,700,1.079,4.47e-108,347.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr84|getorf,Rpi-amr1e-3408,Rpi-amr1,33.24,713,701,1.017,1.45e-103,334.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147022.1_nlr85|getorf,Rpi-amr1e-3408,Rpi-amr1,33.287,724,700,1.034,8.97e-108,345.0
+OG0000000,Salvia divinorum,OG0000000|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147024.1_nlr9|getorf,Rpi-amr1e-3408,Rpi-amr1,32.73,718,701,1.024,8.38e-105,338.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170905.1_nlr32|miniprot,Rpi-amr1e-1032,Rpi-amr1,48.089,314,318,0.987,4.23e-95,298.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170905.1_nlr80|getorf,Rx,other,33.936,719,691,1.041,5.78e-106,339.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170906.1_nlr56|getorf,NbNRC3,other NRC,29.622,476,397,1.199,9.62e-45,161.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170906.1_nlr57|getorf,NRC0,NRC0,32.623,751,697,1.077,1.85e-105,337.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170906.1_nlr58|getorf,Rx,other,33.154,742,696,1.066,1.78e-104,335.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170906.1_nlr59|getorf,Rx,other,33.47,732,697,1.05,1.12e-106,342.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170907.1_nlr58|getorf,NRC0,NRC0,32.404,753,697,1.08,1.79e-104,335.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170907.1_nlr59|getorf,Rpi-amr1e,Rpi-amr1,33.677,775,717,1.081,6.49e-105,339.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170907.1_nlr60|getorf,NRC0,NRC0,32.404,753,721,1.044,2.61e-103,332.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170915.1_nlr78|getorf,Rpi-amr1e-2307,Rpi-amr1,34.026,770,698,1.103,7.96e-110,351.0
+OG0000000,Lycopus lucidus,OG0000000|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170916.1_nlr63|getorf,Rpi-amr1e-2307,Rpi-amr1,34.252,762,698,1.092,1.30e-107,345.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045454.1_nlr33|getorf,Rpi-amr1e,Rpi-amr1,39.617,313,345,0.907,4.86e-71,234.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045457.1_nlr5|getorf,NRC0,NRC0,29.762,420,371,1.132,1.74e-37,139.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045460.1_nlr19|getorf,NRC0,NRC0,33.846,715,697,1.026,7.62e-117,367.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045465.1_nlr3|getorf,Rpa1,other,30.952,252,270,0.933,1.77e-18,80.5
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045465.1_nlr4|getorf,Rpa1,other,32.762,525,506,1.038,7.39e-64,219.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045466.1_nlr16|getorf,NRC0,NRC0,33.508,764,725,1.054,1.48e-114,362.0
+OG0000000,Coleus hadiensis,OG0000000|GCA_057782535_1_Coleus_hadiensis_genomic_GCA_057782535.1|AP045468.1_nlr29|getorf,NRC0,NRC0,33.525,695,700,0.993,3.55e-114,360.0
+OG0000000,Glechoma hederacea,OG0000000|GCA_965282405_2_Glechoma_hederacea_genomic_GCA_965282405.2|OZ258484.1_nlr93|getorf,Bs2,other,34.737,760,711,1.069,1.11e-106,341.0
+OG0000000,Glechoma hederacea,OG0000000|GCA_965282405_2_Glechoma_hederacea_genomic_GCA_965282405.2|OZ258484.1_nlr94|miniprot,Rpi-amr1e-1032,Rpi-amr1,46.154,338,369,0.916,1.36e-96,304.0
+OG0000000,Glechoma hederacea,OG0000000|GCA_965282405_2_Glechoma_hederacea_genomic_GCA_965282405.2|OZ258487.1_nlr38|miniprot,Rpi-amr1e-1032,Rpi-amr1,46.154,338,369,0.916,1.36e-96,304.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409143.1_nlr11|getorf,NRC0,NRC0,35.683,695,707,0.983,6.69e-119,373.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr29|getorf,NRC0,NRC0,33.926,675,685,0.985,2.45e-113,358.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr30|getorf,Rpi-amr1e-3408,Rpi-amr1,41.161,379,510,0.743,7.61e-96,307.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr31|getorf,NRC0,NRC0,32.48,742,694,1.069,4.90e-108,344.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr44|getorf,Rpi-amr1e-3408,Rpi-amr1,32.749,684,675,1.013,1.65e-104,336.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr46|getorf,Rpi-amr1e,Rpi-amr1,34.106,604,572,1.056,9.19e-98,315.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409146.1_nlr47|getorf,NbNRC3,other NRC,29.262,393,363,1.083,1.73e-33,127.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr10|getorf,Rpi-amr1e,Rpi-amr1,30.931,763,698,1.093,1.40e-106,343.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr11|getorf,Rpa1,other,34.502,713,702,1.016,1.30e-111,354.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr12|getorf,NRC0,NRC0,33.427,715,692,1.033,5.07e-111,352.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr13|getorf,Rpi-amr1e,Rpi-amr1,32.804,756,694,1.089,1.19e-109,351.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr14|getorf,Rpa1,other,33.51,755,695,1.086,6.58e-108,344.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr2|getorf,NRC0,NRC0,32.689,673,678,0.993,3.03e-98,317.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr30|getorf,NRC0,NRC0,33.824,680,696,0.977,1.61e-109,348.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr33|getorf,Rpi-amr1e-3408,Rpi-amr1,32.493,714,673,1.061,1.15e-103,334.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr34|getorf,NRC0,NRC0,32.21,742,694,1.069,8.57e-107,340.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr35|getorf,Rpi-amr1e-3408,Rpi-amr1,39.0,400,508,0.787,1.68e-96,309.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr36|getorf,NRC0,NRC0,33.382,680,722,0.942,1.09e-105,338.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr37|getorf,NRC0,NRC0,32.836,737,694,1.062,7.05e-106,338.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr39|getorf,NRC0,NRC0,33.433,670,702,0.954,3.48e-106,339.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr3|getorf,NRC0,NRC0,33.957,695,696,0.999,3.40e-106,339.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr41|getorf,Rpi-amr1e-2300,Rpi-amr1,38.554,249,293,0.85,3.06e-53,182.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr42|getorf,NRC0,NRC0,34.808,678,693,0.978,2.53e-110,350.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr4|getorf,NRC0,NRC0,34.894,705,696,1.013,5.58e-116,365.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr5|getorf,NRC0,NRC0,33.288,742,724,1.025,1.57e-107,343.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr6|getorf,Rpi-amr1e-3408,Rpi-amr1,33.11,746,700,1.066,4.65e-114,362.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr8|getorf,Rpi-amr1e-3408,Rpi-amr1,33.469,735,697,1.055,1.56e-113,361.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409148.1_nlr9|getorf,Rpa1,other,34.714,700,688,1.017,1.45e-112,356.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409149.1_nlr11|getorf,NRC0,NRC0,35.971,695,707,0.983,2.29e-119,374.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr31|getorf,Rpi-amr1e-2300,Rpi-amr1,35.452,708,701,1.01,1.18e-112,358.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr36|getorf,NRC3,other NRC,33.187,684,696,0.983,3.03e-104,334.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr38|getorf,NRC0,NRC0,31.444,741,707,1.048,1.78e-106,340.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr39|getorf,NRC0,NRC0,31.333,750,731,1.026,4.38e-106,340.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr40|getorf,NRC3,other NRC,33.188,690,705,0.979,2.01e-109,348.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409153.1_nlr41|getorf,NRC3,other NRC,32.895,684,707,0.967,7.49e-105,336.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409154.1_nlr71|getorf,NRC0,NRC0,32.187,727,700,1.039,8.53e-105,335.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409154.1_nlr72|getorf,Rpa1,other,34.516,733,700,1.047,4.12e-106,339.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409154.1_nlr73|getorf,NRC3,other NRC,32.945,686,700,0.98,2.91e-104,334.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409156.1_nlr20|getorf,Rpi-amr1e-3408,Rpi-amr1,32.473,736,696,1.057,2.71e-109,350.0
+OG0000000,Plectranthus ornatus,OG0000000|GCA_978856865_1_Plectranthus_ornatus_genomic_GCA_978856865.1|OZ409156.1_nlr21|getorf,Rpi-amr1e-3408,Rpi-amr1,32.925,735,698,1.053,4.16e-108,347.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056034.1_nlr11|getorf,Rpi-amr1e-2307,Rpi-amr1,32.838,740,699,1.059,8.16e-106,340.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056034.1_nlr12|getorf,Rpi-amr1e,Rpi-amr1,39.062,256,260,0.985,3.06e-65,214.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056034.1_nlr13|getorf,Rpi-amr1e,Rpi-amr1,38.205,390,450,0.867,2.46e-88,285.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056034.1_nlr14|getorf,NRC0,NRC0,33.842,721,693,1.04,5.31e-102,328.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056034.1_nlr15|getorf,NRC0,NRC0,34.728,717,690,1.039,3.93e-115,362.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056035.1_nlr9|getorf,NRC0,NRC0,32.636,717,701,1.023,5.15e-105,336.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056046.1_nlr6|getorf,Rpi-amr1e,Rpi-amr1,32.581,709,700,1.013,1.59e-103,335.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056050.1_nlr32|getorf,Rpi-amr1e,Rpi-amr1,33.103,725,701,1.034,8.42e-103,333.0
+OG0000000,Salvia splendens,OG0000000|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056051.1_nlr2|getorf,NRC0,NRC0,34.493,690,700,0.986,9.03e-108,343.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr114|getorf,NRC0,NRC0,32.345,776,744,1.043,2.37e-105,338.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr127|getorf,Rx,other,31.551,748,699,1.07,5.10e-104,334.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr128|getorf,Rpi-amr1e,Rpi-amr1,33.1,713,698,1.021,1.64e-101,329.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr129|getorf,Rpi-amr1e-2307,Rpi-amr1,31.456,728,684,1.064,6.02e-99,322.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr137|getorf,Bs2,other,42.396,217,255,0.851,4.65e-50,171.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr138|getorf,Rpi-amr1e-3408,Rpi-amr1,32.825,722,708,1.02,3.03e-106,342.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062966.1_nlr36|getorf,NRC3,other NRC,27.723,303,271,1.118,5.43e-19,82.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062968.1_nlr131|getorf,NRC0,NRC0,25.097,259,243,1.066,3.60e-13,64.3
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062969.1_nlr32|getorf,Rpi-amr1e-2272,Rpi-amr1,32.532,707,685,1.032,2.43e-102,330.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062970.1_nlr192|getorf,NbNRC3,other NRC,33.086,674,695,0.97,1.57e-102,329.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062970.1_nlr214|getorf,Rpi-amr1e-3408,Rpi-amr1,32.267,719,733,0.981,4.02e-104,337.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NW_025952176.1_nlr1|getorf,Rpi-amr1e-1032,Rpi-amr1,39.623,371,617,0.601,4.59e-86,285.0
+OG0000000,Salvia hispanica,OG0000000|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NW_025952783.1_nlr1|getorf,Rpi-amr1e-1032,Rpi-amr1,39.623,371,617,0.601,4.59e-86,285.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080387.1_nlr17|getorf,Rpi-amr1e,Rpi-amr1,33.77,764,709,1.078,9.50e-115,365.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080387.1_nlr5|getorf,Rpi-amr1e,Rpi-amr1,34.811,767,714,1.074,5.82e-124,390.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr135|getorf,NRC0,NRC0,31.591,440,405,1.086,2.34e-41,151.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr136|getorf,NRC0,NRC0,34.182,746,703,1.061,6.38e-114,360.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr19|getorf,Rpi-amr1e-3408,Rpi-amr1,35.211,710,715,0.993,7.49e-115,365.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr209|getorf,NRC0,NRC0,33.261,460,429,1.072,7.62e-53,185.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr210|getorf,Rpi-amr1e,Rpi-amr1,34.478,786,739,1.064,1.34e-121,384.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr229|getorf,Rpi-amr1e,Rpi-amr1,34.034,761,713,1.067,6.42e-119,376.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr26|getorf,Rpi-amr1e-3408,Rpi-amr1,36.585,574,657,0.874,1.28e-106,341.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr280|miniprot,Rpi-amr1e-2300,Rpi-amr1,45.783,249,247,1.008,4.70e-69,224.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr292|getorf,Rpi-amr1e,Rpi-amr1,34.127,756,706,1.071,4.98e-115,366.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr304|getorf,Rpi-amr1e-3408,Rpi-amr1,34.965,715,712,1.004,7.56e-118,373.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr313|getorf,Rpi-amr1e,Rpi-amr1,33.729,759,715,1.062,5.26e-112,358.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr314|getorf,NRC3,other NRC,31.729,457,428,1.068,4.48e-52,183.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr319|getorf,Rpi-amr1e,Rpi-amr1,33.377,758,715,1.06,1.39e-113,362.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr320|getorf,NRC3,other NRC,28.889,405,378,1.071,3.37e-35,132.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr344|getorf,Rpi-amr1e,Rpi-amr1,34.124,759,705,1.077,4.18e-118,374.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr361|getorf,Rpi-amr1e,Rpi-amr1,33.76,782,714,1.095,2.72e-119,377.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr362|miniprot,Rpi-amr1e,Rpi-amr1,42.857,378,393,0.962,1.61e-95,303.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr44|getorf,Rpi-amr1e,Rpi-amr1,33.768,767,715,1.073,4.54e-120,379.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr46|getorf,Rpi-amr1e,Rpi-amr1,33.509,761,715,1.064,3.89e-116,369.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr47|getorf,Rpi-amr1e,Rpi-amr1,43.122,378,385,0.982,1.91e-97,307.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080389.1_nlr86|getorf,Rpi-amr1e,Rpi-amr1,33.901,764,714,1.07,4.93e-119,377.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080394.1_nlr122|getorf,NRC0,NRC0,28.117,409,377,1.085,5.39e-36,135.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NW_026651424.1_nlr5|getorf,Rpi-amr1e,Rpi-amr1,34.433,758,745,1.017,1.21e-114,366.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NW_026651424.1_nlr8|getorf,Rpi-amr1e,Rpi-amr1,33.858,762,715,1.066,3.05e-118,375.0
+OG0000000,Salvia miltiorrhiza,OG0000000|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NW_026651424.1_nlr9|miniprot,Rpi-amr1e-3408,Rpi-amr1,36.824,573,596,0.961,7.01e-111,350.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr11|getorf,NRC0,NRC0,35.088,741,703,1.054,1.22e-125,390.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr12|getorf,Rpi-amr1e-2272,Rpi-amr1,46.645,313,329,0.951,4.14e-87,277.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr13|getorf,Rpi-amr1e-2272,Rpi-amr1,42.259,239,265,0.902,3.83e-54,183.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr14|getorf,NRC0,NRC0,34.519,675,631,1.07,3.26e-112,353.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr15|getorf,NbNRC2b,other NRC,36.426,733,705,1.04,1.24e-119,375.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr19|getorf,NRC0,NRC0,34.583,587,554,1.06,2.69e-96,308.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr22|getorf,Rpa1,other,35.18,722,688,1.049,2.74e-117,369.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr238|getorf,Rpa1,other,34.342,562,595,0.945,2.68e-95,307.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr239|getorf,NRC0,NRC0,32.645,484,452,1.071,6.16e-58,200.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr23|getorf,Rpa1,other,34.726,694,743,0.934,4.66e-110,351.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr265|getorf,Rpi-amr1e-3408,Rpi-amr1,33.459,798,745,1.071,7.95e-123,387.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr266|getorf,NRC0,NRC0,32.798,747,739,1.011,2.46e-115,365.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr272|getorf,NRC0,NRC0,33.289,760,724,1.05,1.20e-116,367.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr275|getorf,NRC0,NRC0,34.143,700,736,0.951,1.17e-111,355.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr280|getorf,NRC0,NRC0,34.851,703,704,0.999,2.54e-119,374.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr282|miniprot,Rpi-amr1e,Rpi-amr1,44.86,321,319,1.006,1.96e-86,275.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr284|getorf,NRC0,NRC0,35.166,691,725,0.953,4.18e-122,382.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr285|getorf,NRC3,other NRC,34.452,447,424,1.054,1.97e-59,204.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr286|getorf,NRC0,NRC0,34.076,763,707,1.079,8.17e-119,373.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr291|getorf,Rpi-amr1e-1032,Rpi-amr1,42.382,361,374,0.965,1.79e-85,275.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr293|getorf,NRC0,NRC0,34.204,766,734,1.044,1.63e-120,378.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr298|getorf,NRC0,NRC0,34.538,692,736,0.94,5.88e-116,366.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr299|getorf,Rpi-amr1e-3408,Rpi-amr1,31.684,748,685,1.092,1.08e-106,342.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr301|getorf,NRC0,NRC0,34.06,734,690,1.064,2.67e-118,371.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr304|getorf,NRC0,NRC0,34.384,698,696,1.003,2.43e-117,369.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr307|getorf,NRC0,NRC0,33.891,717,723,0.992,8.56e-123,384.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr308|getorf,Rpi-amr1e-3408,Rpi-amr1,32.13,803,737,1.09,1.27e-113,362.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr30|getorf,Rpi-amr1e-2272,Rpi-amr1,32.961,179,208,0.861,3.75e-28,106.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr312|getorf,Rpi-amr1e-3408,Rpi-amr1,34.367,774,725,1.068,1.85e-120,380.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr315|getorf,Rpi-amr1e-2307,Rpi-amr1,34.133,750,729,1.029,1.87e-113,362.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr317|getorf,Rpa1,other,34.366,710,738,0.962,4.39e-107,343.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr325|getorf,NRC0,NRC0,33.995,756,703,1.075,2.99e-117,369.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr328|getorf,NRC3,other NRC,33.689,469,432,1.086,5.93e-54,188.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr329|getorf,NRC0,NRC0,31.507,438,406,1.079,1.27e-48,172.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr331|getorf,NRC0,NRC0,35.054,736,691,1.065,8.36e-121,377.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr336|getorf,NRC0,NRC0,34.404,747,704,1.061,1.20e-123,385.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr337|getorf,NbNRC2b,other NRC,36.625,557,529,1.053,8.92e-82,268.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr338|getorf,NRC0,NRC0,34.232,742,703,1.055,1.05e-125,391.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr33|getorf,NRC0,NRC0,33.379,731,670,1.091,2.72e-122,380.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr34|getorf,Rx2,other,37.982,545,564,0.966,1.85e-98,315.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr37|getorf,NRC0,NRC0,35.175,742,700,1.06,7.39e-127,394.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr38|getorf,NRC0,NRC0,33.506,770,756,1.019,9.41e-119,374.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr39|getorf,NRC0,NRC0,33.378,740,706,1.048,2.49e-113,358.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr40|getorf,Rpi-amr1e-2272,Rpi-amr1,33.981,721,720,1.001,1.60e-109,351.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr41|getorf,Bs2,other,42.4,250,280,0.893,2.21e-34,127.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr67|getorf,NRC0,NRC0,32.456,342,321,1.065,1.69e-41,149.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr68|getorf,Rpi-amr1e-3408,Rpi-amr1,33.501,797,745,1.07,2.91e-123,388.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr69|getorf,NRC0,NRC0,32.798,747,739,1.011,7.33e-115,363.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr6|getorf,NRC3,other NRC,36.714,700,704,0.994,1.26e-122,383.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr75|miniprot,NRC0,NRC0,32.714,807,763,1.058,8.43e-122,382.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr76|getorf,NRC0,NRC0,32.267,750,732,1.025,1.05e-113,360.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr77|getorf,NRC3,other NRC,33.034,445,424,1.05,1.99e-50,178.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776119.1_nlr7|getorf,Rpa1,other,36.035,691,704,0.982,2.34e-119,374.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776130.1_nlr8|getorf,NRC0,NRC0,33.684,760,734,1.035,7.94e-118,371.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr100|getorf,Rpi-amr1e-2307,Rpi-amr1,33.977,777,758,1.025,1.05e-117,374.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr101|miniprot,Rpi-amr1e-2272,Rpi-amr1,35.216,602,631,0.954,1.33e-98,318.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr106|getorf,NRC0,NRC0,34.192,699,697,1.003,1.45e-120,377.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr107|getorf,Rpi-amr1e,Rpi-amr1,41.235,405,522,0.776,2.73e-95,307.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr108|getorf,NRC0,NRC0,32.334,767,727,1.055,2.03e-112,357.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr10|getorf,Rpi-amr1e,Rpi-amr1,33.202,759,734,1.034,5.07e-113,361.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr114|getorf,Rpa1,other,34.454,714,736,0.97,9.49e-115,363.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr117|getorf,NRC0,NRC0,34.33,702,696,1.009,1.34e-120,377.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr11|miniprot,NRC0,NRC0,32.65,683,622,1.098,1.54e-99,319.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr120|getorf,NRC0,NRC0,33.159,766,726,1.055,1.70e-122,383.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr121|getorf,NRC0,NRC0,33.43,691,665,1.039,4.79e-110,348.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr13|getorf,NRC0,NRC0,34.807,701,695,1.009,4.29e-119,373.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr18|getorf,NRC0,NRC0,33.506,770,759,1.014,1.53e-119,376.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr20|getorf,NRC0,NRC0,34.906,742,694,1.069,2.82e-124,387.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr23|getorf,NRC0,NRC0,33.466,753,727,1.036,1.08e-116,368.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr24|getorf,NRC0,NRC0,33.147,537,510,1.053,9.89e-79,259.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr25|getorf,Rpi-amr1e-2307,Rpi-amr1,34.615,754,738,1.022,1.24e-112,360.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr26|getorf,NRC0,NRC0,34.912,739,703,1.051,1.94e-127,395.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr27|getorf,Rpi-amr1e-2272,Rpi-amr1,42.697,356,380,0.937,5.44e-89,284.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr39|getorf,Rpi-amr1e-1032,Rpi-amr1,33.778,749,714,1.049,5.74e-114,362.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr40|getorf,Rpi-amr3i,other,43.291,395,397,0.995,2.11e-89,284.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr41|getorf,NRC0,NRC0,33.531,674,623,1.082,6.30e-99,317.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr42|getorf,Rpi-amr1e-2272,Rpi-amr1,40.166,361,368,0.981,2.39e-78,254.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr43|getorf,NRC0,NRC0,34.884,559,601,0.93,4.25e-92,298.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr44|getorf,NRC0,NRC0,35.227,616,570,1.081,1.65e-99,317.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr45|getorf,NRC0,NRC0,35.028,708,720,0.983,1.81e-119,375.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr75|getorf,Rpi-amr1e-2272,Rpi-amr1,34.805,793,737,1.076,1.20e-116,370.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr7|getorf,NRC0,NRC0,33.333,663,632,1.049,6.59e-107,339.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr81|getorf,Rpa1,other,33.096,562,542,1.037,1.12e-73,247.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr86|getorf,Rpi-amr1e-2272,Rpi-amr1,40.873,252,266,0.947,6.25e-52,177.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr87|getorf,NbNRC2a,other NRC,36.562,733,705,1.04,3.73e-119,374.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr8|getorf,NRC0,NRC0,34.459,740,698,1.06,2.08e-118,371.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr90|getorf,NRC0,NRC0,33.857,700,688,1.017,7.30e-113,357.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr92|getorf,NRC0,NRC0,34.034,761,739,1.03,2.23e-118,373.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr98|getorf,NRC0,NRC0,34.245,695,704,0.987,4.44e-111,352.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr99|getorf,Rpi-amr1e-2272,Rpi-amr1,45.559,349,548,0.637,7.03e-94,303.0
+OG0000008,Galeopsis tetrahit,OG0000008|GCA_963675135_2_Galeopsis_tetrahit_genomic_GCA_963675135.2|OY776132.1_nlr9|getorf,Rpi-amr1e-3408,Rpi-amr1,32.634,763,740,1.031,1.82e-113,362.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082879.1_nlr16|getorf,NRC0,NRC0,35.53,698,692,1.009,5.89e-121,378.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082879.1_nlr38|getorf,NRC0,NRC0,35.139,720,714,1.008,1.64e-126,393.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082879.1_nlr39|getorf,Rpi-amr1e-2307,Rpi-amr1,34.08,625,648,0.965,3.59e-103,332.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr124|getorf,NRC0,NRC0,34.396,753,732,1.029,3.68e-121,380.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr125|getorf,NRC0,NRC0,34.682,692,697,0.993,4.99e-123,384.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr126|getorf,Rpi-amr1e,Rpi-amr1,44.33,388,483,0.803,1.05e-103,328.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr127|getorf,NRC0,NRC0,34.783,690,690,1.0,1.52e-122,382.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr128|getorf,NRC0,NRC0,34.018,779,756,1.03,3.88e-126,394.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr130|miniprot,Bs2,other,35.063,790,762,1.037,3.97e-128,399.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr131|getorf,NRC0,NRC0,34.964,695,732,0.949,2.38e-122,383.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr132|getorf,NRC0,NRC0,35.127,706,698,1.011,7.68e-126,391.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr230|getorf,NRC0,NRC0,35.196,537,495,1.085,1.91e-82,269.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr231|getorf,NRC0,NRC0,33.824,544,503,1.082,3.41e-82,269.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr234|getorf,NRC0,NRC0,33.333,708,694,1.02,2.66e-113,358.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr104|getorf,NRC0,NRC0,35.196,537,495,1.085,1.91e-82,269.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr106|getorf,NRC0,NRC0,33.824,544,503,1.082,5.93e-82,268.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr109|getorf,NRC0,NRC0,33.333,708,694,1.02,2.66e-113,358.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr250|miniprot,NRC0,NRC0,32.622,797,766,1.04,2.54e-127,397.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr251|getorf,Rpi-amr1e,Rpi-amr1,44.33,388,483,0.803,1.05e-103,328.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr253|getorf,NRC0,NRC0,34.396,753,732,1.029,1.56e-122,383.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr254|getorf,NRC0,NRC0,34.363,777,756,1.028,3.82e-128,399.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr256|getorf,NRC0,NRC0,36.023,694,661,1.05,1.70e-127,394.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr257|getorf,NRC0,NRC0,35.498,693,656,1.056,2.15e-123,383.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr258|getorf,NRC0,NRC0,33.289,751,747,1.005,1.16e-120,379.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr147|getorf,Rpi-amr1e,Rpi-amr1,41.404,413,486,0.85,8.11e-101,320.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr148|miniprot,Rpi-amr1e,Rpi-amr1,34.571,781,764,1.022,1.23e-123,390.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr150|getorf,NRC0,NRC0,34.561,706,701,1.007,2.91e-124,387.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr151|getorf,NRC0,NRC0,35.108,695,749,0.928,3.61e-125,391.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr152|getorf,NRC0,NRC0,34.578,723,712,1.015,7.55e-122,381.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr153|getorf,NRC0,NRC0,34.04,755,735,1.027,2.00e-125,391.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr155|getorf,NRC0,NRC0,35.252,695,695,1.0,4.87e-125,389.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr76|getorf,NRC0,NRC0,32.65,732,707,1.035,2.54e-119,374.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082923.1_nlr118|getorf,NRC0,NRC0,35.852,728,715,1.018,4.51e-130,402.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082923.1_nlr119|miniprot,Rpi-amr1e-2307,Rpi-amr1,34.606,812,757,1.073,2.14e-123,389.0
+OG0000018,Mentha x piperita,OG0000018|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082923.1_nlr39|getorf,Rpi-amr1e,Rpi-amr1,47.407,270,348,0.776,5.88e-80,259.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr17|getorf,NRC0,NRC0,34.6,737,702,1.05,1.05e-122,383.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr18|getorf,Rpi-amr1e,Rpi-amr1,46.701,197,272,0.724,5.40e-56,189.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr19|miniprot,NRC0,NRC0,36.063,696,763,0.912,4.22e-127,396.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr21|miniprot,Rpi-amr1e-2307,Rpi-amr1,35.352,611,590,1.036,1.20e-106,339.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr22|miniprot,Rpi-amr1e-2272,Rpi-amr1,47.95,317,386,0.821,1.06e-92,294.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr23|getorf,NRC0,NRC0,34.632,693,698,0.993,4.51e-120,376.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr25|getorf,Rpi-amr1e-3408,Rpi-amr1,42.714,398,471,0.845,2.39e-101,321.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr565|getorf,NRC0,NRC0,35.382,537,495,1.085,1.30e-82,270.0
+OG0000018,Mentha suaveolens,OG0000018|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr566|getorf,Rpi-amr1e-2300,Rpi-amr1,44.654,318,331,0.961,7.97e-84,268.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr21|getorf,Rpi-amr1e-2300,Rpi-amr1,40.603,431,468,0.921,7.46e-92,295.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr22|miniprot,NRC0,NRC0,36.126,728,762,0.955,5.41e-131,407.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr23|miniprot,Rpi-amr1e-3408,Rpi-amr1,35.057,793,753,1.053,2.10e-124,392.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr25|getorf,Rpi-amr1e-2272,Rpi-amr1,46.264,348,381,0.913,4.90e-99,311.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr30|getorf,NRC0,NRC0,34.685,666,656,1.015,3.39e-116,364.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr31|miniprot,NRC0,NRC0,35.989,728,762,0.955,9.57e-131,406.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr32|getorf,Rpi-amr1e,Rpi-amr1,44.687,367,393,0.934,4.99e-103,323.0
+OG0000018,Mentha longifolia,OG0000018|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr347|getorf,NRC0,NRC0,32.969,731,707,1.034,1.13e-120,378.0
+OG0000018,Lycopus lucidus,OG0000018|GCA_057380875_1_Lycopus_lucidus_genomic_GCA_057380875.1|CM170907.1_nlr77|getorf,NRC0,NRC0,34.585,639,629,1.016,1.97e-108,343.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277988.1_nlr32|miniprot,Rpi-amr1e-2307,Rpi-amr1,37.106,539,492,1.096,3.58e-103,326.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277989.1_nlr3|getorf,NRC0,NRC0,35.0,720,714,1.008,2.72e-125,390.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277989.1_nlr77|getorf,NRC0,NRC0,35.53,698,696,1.003,4.68e-122,381.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278020.1_nlr10|getorf,NRC0,NRC0,34.705,559,517,1.081,6.79e-80,263.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278020.1_nlr11|getorf,NRC0,NRC0,35.901,727,715,1.017,5.81e-130,402.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278020.1_nlr12|getorf,NRC0,NRC0,34.574,752,720,1.044,2.64e-125,390.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278020.1_nlr241|getorf,NRC0,NRC0,32.65,732,707,1.035,1.27e-117,370.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278020.1_nlr243|getorf,NRC0,NRC0,36.195,699,695,1.006,1.28e-126,393.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr10|getorf,NRC0,NRC0,35.217,690,694,0.994,2.16e-120,377.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr13|getorf,NRC0,NRC0,35.507,690,658,1.049,8.25e-130,400.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr14|getorf,Rpi-amr1e-2272,Rpi-amr1,45.509,334,352,0.949,5.16e-88,280.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr15|getorf,NRC0,NRC0,35.94,729,715,1.02,1.06e-130,404.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr16|getorf,NRC0,NRC0,34.77,696,689,1.01,2.05e-122,382.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr229|getorf,NRC0,NRC0,32.65,732,707,1.035,1.27e-117,370.0
+OG0000018,Mentha aquatica,OG0000018|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr231|getorf,NRC0,NRC0,36.195,699,695,1.006,4.24e-126,392.0
+OG0000018,Salvia miltiorrhiza,OG0000018|GCF_028751815_1_Salvia_miltiorrhiza_genomic_GCF_028751815.1|NC_080387.1_nlr79|getorf,NRC0,NRC0,34.045,749,707,1.059,1.54e-122,382.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082879.1_nlr27|getorf,NRC0,NRC0,38.875,391,451,0.867,1.51e-72,241.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082879.1_nlr28|getorf,Rpi-amr1e,Rpi-amr1,39.489,352,351,1.003,4.47e-80,259.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr117|getorf,Rpi-amr1e,Rpi-amr1,33.602,744,690,1.078,7.09e-105,338.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr218|getorf,NRC0,NRC0,34.827,692,680,1.018,2.60e-113,357.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr222|getorf,Rpi-amr1e,Rpi-amr1,32.935,753,696,1.082,3.33e-112,358.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr223|getorf,Rpi-amr1e,Rpi-amr1,35.081,744,696,1.069,4.15e-109,350.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr226|miniprot,NRC0,NRC0,33.706,715,707,1.011,8.88e-114,359.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr227|getorf,Rpi-amr1e,Rpi-amr1,32.848,755,696,1.085,3.33e-112,358.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082880.1_nlr228|getorf,Rpi-amr1e,Rpi-amr1,41.542,402,453,0.887,1.45e-99,316.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr101|getorf,Rpi-amr1e,Rpi-amr1,32.935,753,696,1.082,2.31e-112,358.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr102|getorf,Rpi-amr1e,Rpi-amr1,41.542,402,453,0.887,2.10e-100,318.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr238|getorf,Rpi-amr1e,Rpi-amr1,33.602,744,690,1.078,7.09e-105,338.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr241|getorf,NRC0,NRC0,34.45,746,722,1.033,2.04e-119,375.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr95|getorf,Rpi-amr1e-3408,Rpi-amr1,34.179,749,692,1.082,2.53e-111,355.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr97|getorf,Rpi-amr1e-3408,Rpi-amr1,34.179,749,692,1.082,2.53e-111,355.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082881.1_nlr99|getorf,NRC0,NRC0,33.96,745,738,1.009,2.11e-116,367.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082896.1_nlr8|getorf,NRC0,NRC0,35.439,570,535,1.065,5.96e-92,296.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082896.1_nlr9|getorf,Rpi-amr1e,Rpi-amr1,42.331,326,329,0.991,3.18e-84,270.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082898.1_nlr1|getorf,Rpi-amr1e-2307,Rpi-amr1,34.742,757,704,1.075,4.01e-117,370.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082898.1_nlr3|getorf,NRC0,NRC0,35.735,694,685,1.013,1.05e-115,364.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082898.1_nlr4|getorf,Rpi-amr1e-2272,Rpi-amr1,38.824,255,271,0.941,2.65e-51,176.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr140|getorf,Rpi-amr1e,Rpi-amr1,33.737,744,690,1.078,7.39e-105,338.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr73|getorf,NRC0,NRC0,30.412,388,345,1.125,4.18e-31,119.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082922.1_nlr74|getorf,Rpi-amr1e-3408,Rpi-amr1,34.0,750,693,1.082,5.11e-108,346.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082923.1_nlr37|getorf,NRC0,NRC0,32.647,340,338,1.006,4.41e-44,157.0
+OG0000029,Mentha x piperita,OG0000029|GCA_041146485_1_Mentha_x_piperita_genomic_GCA_041146485.1|CM082938.1_nlr109|getorf,Rpi-amr1e,Rpi-amr1,33.52,713,678,1.052,3.71e-110,352.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr10|getorf,Rpi-amr1e,Rpi-amr1,34.492,748,696,1.075,4.06e-111,355.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr13|getorf,Rpi-amr1e-3408,Rpi-amr1,34.681,767,720,1.065,1.94e-115,367.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr552|getorf,Rpi-amr1e,Rpi-amr1,33.466,756,693,1.091,1.08e-108,348.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr554|getorf,NRC3,other NRC,28.421,285,281,1.014,1.57e-22,92.8
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr555|getorf,NRC0,NRC0,29.487,390,355,1.099,8.53e-31,119.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr556|getorf,Rpi-amr1e,Rpi-amr1,34.281,598,580,1.031,4.70e-100,322.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr557|getorf,Rpi-amr1e,Rpi-amr1,34.562,787,728,1.081,5.51e-118,374.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr559|getorf,NRC0,NRC0,32.485,511,482,1.06,1.73e-65,222.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr561|getorf,Rpi-amr1e,Rpi-amr1,32.935,753,696,1.082,6.74e-112,357.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr562|getorf,Rpi-amr1e,Rpi-amr1,34.409,744,696,1.069,1.39e-104,337.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr563|getorf,NRC0,NRC0,35.229,721,714,1.01,1.34e-123,385.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159500.1_nlr6|getorf,Rpi-amr1e-3408,Rpi-amr1,33.686,757,696,1.088,2.98e-114,363.0
+OG0000029,Mentha suaveolens,OG0000029|GCA_041501505_1_Mentha_suaveolens_genomic_GCA_041501505.1|CP159505.1_nlr5|getorf,NRC0,NRC0,35.675,726,719,1.01,2.31e-120,377.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127179.1_nlr12|getorf,Rpi-amr1e-2307,Rpi-amr1,34.0,750,683,1.098,9.97e-115,363.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127179.1_nlr13|getorf,Rpi-amr1e-2307,Rpi-amr1,34.933,750,682,1.1,1.38e-117,371.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127179.1_nlr14|getorf,Rpi-amr1e-2307,Rpi-amr1,33.6,750,679,1.105,3.65e-113,359.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr10|getorf,Rpi-amr1e-3408,Rpi-amr1,34.626,748,696,1.075,3.30e-111,355.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr14|getorf,Rpi-amr1e,Rpi-amr1,33.333,744,690,1.078,3.06e-103,333.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr338|getorf,Rpi-amr1e,Rpi-amr1,44.258,357,377,0.947,3.61e-97,306.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr339|getorf,Rpi-amr1e,Rpi-amr1,39.81,422,465,0.908,1.34e-99,316.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr340|getorf,NRC0,NRC0,37.166,487,546,0.892,2.04e-97,311.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr341|getorf,Rpi-amr1e-3408,Rpi-amr1,34.312,749,692,1.082,5.59e-113,359.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr343|getorf,Rpi-amr1e,Rpi-amr1,40.223,358,359,0.997,3.96e-82,265.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr344|getorf,NRC0,NRC0,32.641,337,362,0.931,1.90e-47,167.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr345|getorf,NRC0,NRC0,34.362,713,696,1.024,9.76e-114,359.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127182.1_nlr346|getorf,Rpi-amr1e,Rpi-amr1,34.677,744,696,1.069,9.41e-107,343.0
+OG0000029,Mentha longifolia,OG0000029|GCA_052575335_1_Mentha_longifolia_genomic_GCA_052575335.1|CM127187.1_nlr5|getorf,NRC0,NRC0,32.196,469,429,1.093,1.43e-49,176.0
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277989.1_nlr90|getorf,NRC0,NRC0,32.468,231,299,0.773,2.74e-21,89.7
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277989.1_nlr91|getorf,Rpi-amr1e,Rpi-amr1,39.205,352,351,1.003,2.41e-79,257.0
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ277990.1_nlr1|getorf,Rpi-amr1e-2307,Rpi-amr1,34.243,806,726,1.11,1.01e-120,381.0
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr226|getorf,Rpi-amr1e-1101,Rpi-amr1,33.935,775,728,1.065,1.88e-116,369.0
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr227|getorf,NRC0,NRC0,33.448,583,552,1.056,2.65e-86,281.0
+OG0000029,Mentha aquatica,OG0000029|GCA_965615935_2_Mentha_aquatica_genomic_GCA_965615935.2|OZ278024.1_nlr228|getorf,Rpi-amr1e,Rpi-amr1,35.215,744,696,1.069,1.77e-109,350.0
+OG0000038,Scutellaria barbata,OG0000038|GCA_028654395_1_Scutellaria_barbata_genomic_GCA_028654395.1|CM053654.1_nlr48|getorf,Rpi-chcl,Rpi-chc1,35.065,154,223,0.691,7.17e-15,68.9
+OG0000038,Thymus mandschuricus,OG0000038|GCA_029379335_1_Thymus_mandschuricus_genomic_GCA_029379335.1|CM057082.1_nlr91|getorf,Rpi-chcl,Rpi-chc1,37.829,645,602,1.071,2.19e-120,382.0
+OG0000038,Salvia divinorum,OG0000038|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147025.1_nlr16|miniprot,Rpi-chcl,Rpi-chc1,35.871,1182,1125,1.051,0.0,601.0
+OG0000038,Salvia divinorum,OG0000038|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147025.1_nlr17|miniprot,Rpi-chcl,Rpi-chc1,34.646,1244,1129,1.102,0.0,585.0
+OG0000038,Salvia divinorum,OG0000038|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147025.1_nlr18|miniprot,Rpi-chcl,Rpi-chc1,36.468,872,826,1.056,5.27e-151,472.0
+OG0000038,Salvia divinorum,OG0000038|GCA_055755735_1_Salvia_divinorum_genomic_GCA_055755735.1|CM147025.1_nlr1|getorf,Rpi-chcl,Rpi-chc1,35.926,1080,1029,1.05,1.90e-175,543.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056042.1_nlr21|getorf,Rps1-k-1,other,35.942,345,355,0.972,2.39e-49,173.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056046.1_nlr13|getorf,Rpi-chcl,Rpi-chc1,39.75,400,413,0.969,2.84e-82,270.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056048.1_nlr11|getorf,Rpi-chcl,Rpi-chc1,36.806,144,130,1.108,1.20e-15,67.8
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056048.1_nlr20|getorf,Rpi-chcl,Rpi-chc1,39.659,411,395,1.041,8.23e-81,265.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr15|miniprot,Rpi-chcl,Rpi-chc1,36.863,1020,979,1.042,0.0,567.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr22|getorf,Rpi-chcl,Rpi-chc1,35.893,1120,1073,1.044,0.0,564.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr2|miniprot,Rpi-chcl,Rpi-chc1,34.625,1239,1124,1.102,0.0,603.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr31|getorf,Rpi-chcl,Rpi-chc1,33.25,1203,1066,1.129,7.67e-174,540.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr32|getorf,Rpi-chcl,Rpi-chc1,39.138,603,617,0.977,6.54e-119,379.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr3|getorf,Rpi-chcl,Rpi-chc1,33.906,233,266,0.876,1.82e-31,118.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr4|getorf,Rpi-chcl,Rpi-chc1,35.52,1174,1098,1.069,0.0,622.0
+OG0000038,Salvia splendens,OG0000038|GCF_004379255_2_Salvia_splendens_genomic_GCF_004379255.2|NC_056049.1_nlr5|miniprot,Rpi-chcl,Rpi-chc1,33.502,1188,1095,1.085,0.0,567.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr10|getorf,Rpi-chcl,Rpi-chc1,35.849,1113,1053,1.057,2.18e-180,557.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr11|getorf,Rpi-chcl,Rpi-chc1,35.445,1089,1052,1.035,0.0,579.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr12|getorf,Rpi-chcl,Rpi-chc1,36.181,199,498,0.4,5.35e-32,126.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr13|getorf,Rpi-chcl,Rpi-chc1,34.949,1073,1029,1.043,4.06e-179,553.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr219|getorf,Rpi-chcl,Rpi-chc1,34.641,1045,961,1.087,2.81e-164,511.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr220|getorf,Rpi-chcl,Rpi-chc1,39.228,311,316,0.984,1.05e-61,207.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr225|getorf,Rpi-chcl,Rpi-chc1,37.5,256,279,0.918,1.10e-50,174.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr266|getorf,Rpi-chcl,Rpi-chc1,39.848,394,415,0.949,5.19e-82,270.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr267|miniprot,Rpi-chcl,Rpi-chc1,40.04,502,501,1.002,2.92e-106,340.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr269|getorf,Rpi-chcl,Rpi-chc1,34.275,531,510,1.041,5.79e-71,241.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr270|getorf,Rpi-chcl,Rpi-chc1,39.689,514,516,0.996,4.44e-104,335.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr271|getorf,Rpi-chcl,Rpi-chc1,34.478,728,681,1.069,1.29e-99,328.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr273|getorf,Rpi-chcl,Rpi-chc1,37.084,1111,1062,1.046,0.0,561.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr274|getorf,Rpi-chcl,Rpi-chc1,37.732,970,960,1.01,3.60e-179,551.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr276|getorf,Rpi-chcl,Rpi-chc1,40.359,612,603,1.015,2.00e-125,395.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr277|getorf,Rpi-chcl,Rpi-chc1,35.972,1137,1071,1.062,0.0,570.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr278|miniprot,Rpi-chcl,Rpi-chc1,36.373,1020,1057,0.965,0.0,558.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr280|getorf,Rpi-chcl,Rpi-chc1,34.642,866,816,1.061,9.57e-129,412.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr2|getorf,Rpi-chcl,Rpi-chc1,39.764,679,667,1.018,1.96e-135,425.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr3|getorf,Rpi-chcl,Rpi-chc1,34.439,1115,1028,1.085,1.24e-171,533.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr43|getorf,Rpi-chcl,Rpi-chc1,38.612,461,425,1.085,2.51e-74,248.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr44|getorf,Rpi-chcl,Rpi-chc1,36.594,552,548,1.007,1.57e-83,278.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr45|getorf,Rpi-chcl,Rpi-chc1,32.95,695,681,1.021,4.40e-91,304.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr46|getorf,Rpi-chcl,Rpi-chc1,37.888,483,512,0.943,1.04e-87,289.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr47|getorf,Rpi-chcl,Rpi-chc1,34.776,624,607,1.028,4.98e-88,293.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr48|getorf,Rpi-chcl,Rpi-chc1,31.765,340,332,1.024,8.65e-38,139.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr5|miniprot,Rpi-chcl,Rpi-chc1,35.56,973,1003,0.97,4.36e-158,496.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr6|getorf,Rpi-chcl,Rpi-chc1,36.461,1119,1055,1.061,0.0,580.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr7|miniprot,Rpi-chcl,Rpi-chc1,36.458,672,661,1.017,1.75e-115,371.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr80|miniprot,Rpi-chcl,Rpi-chc1,36.333,1189,1138,1.045,0.0,639.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr8|miniprot,Rpi-chcl,Rpi-chc1,36.25,1200,1141,1.052,0.0,620.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062965.1_nlr9|getorf,Rpi-chcl,Rpi-chc1,35.773,1093,1058,1.033,0.0,574.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062968.1_nlr72|getorf,Rpi-chcl,Rpi-chc1,32.717,703,662,1.062,1.93e-86,290.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062969.1_nlr28|getorf,Rpi-chcl,Rpi-chc1,35.442,1075,1029,1.045,1.55e-168,525.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NC_062969.1_nlr29|getorf,Rpi-chcl,Rpi-chc1,40.044,457,490,0.933,1.00e-89,294.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NW_025951394.1_nlr1|getorf,Rpi-chcl,Rpi-chc1,36.079,1117,1068,1.046,0.0,584.0
+OG0000038,Salvia hispanica,OG0000038|GCF_023119035_1_Salvia_hispanica_genomic_GCF_023119035.1|NW_025951432.1_nlr1|getorf,Rpi-chcl,Rpi-chc1,35.484,155,158,0.981,7.34e-17,72.4

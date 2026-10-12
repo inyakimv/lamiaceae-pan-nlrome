@@ -10,7 +10,7 @@ Usage:
     python3 find_5th_candidate_en.py
 
 Requires:
-    - 03_orthofinder/proteomes/OrthoFinder/Results_*/Orthogroups/tandem_analysis_46species.csv
+    - 03_orthofinder/proteomes/OrthoFinder/Results_Jul07/Orthogroups/tandem_analysis_46species.csv
     - 09_combined_results/qc_nlr_combined.csv (or whatever you
       named your QC+NLR table with the ploidy_flag column)
 """
@@ -21,7 +21,7 @@ import os
 PROJECT_DIR = os.path.expanduser("~/project")
 
 tandem_files = glob.glob(os.path.join(
-    PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_*/Orthogroups/tandem_analysis_46species.csv"
+    PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_Jul07/Orthogroups/tandem_analysis_46species.csv"
 ))
 qc_files = glob.glob(os.path.join(PROJECT_DIR, "**/qc_nlr_combined*.csv"), recursive=True)
 

@@ -8,7 +8,7 @@ Usage:
     cd ~/project
     python3 extract_proteins_for_blast_en.py OG0000038 OG0000018 OG0000029 OG0000008
 
-Reads from: 03_orthofinder/proteomes/OrthoFinder/Results_*/MultipleSequenceAlignments/<OG>.fa
+Reads from: 03_orthofinder/proteomes/OrthoFinder/Results_Jul07/MultipleSequenceAlignments/<OG>.fa
 Writes to:  10_validation/<OG>_proteins_for_blast.fasta
 """
 import sys
@@ -22,7 +22,7 @@ OUT_DIR = os.path.join(PROJECT_DIR, "10_validation")
 
 def find_msa_file(og_id):
     matches = glob.glob(os.path.join(
-        PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_*",
+        PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_Jul07",
         "MultipleSequenceAlignments", f"{og_id}.fa"
     ))
     return matches[0] if matches else None

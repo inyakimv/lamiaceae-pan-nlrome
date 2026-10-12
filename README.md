@@ -23,12 +23,13 @@ Conda environment specifications are provided in `env_specs/`.
 | FastTree (OrthoFinder environment) | 2.2.0 | gene trees run inside OrthoFinder (not used for Section 4.3) |
 | IQ-TREE | 3.1.2 | `-m MFP -bb 1000 -nt 4` (gene trees of Section 4.3) |
 | HyPhy | 2.5.100 (MP) | FEL / MEME, default parameters |
+| BLAST+ (blastp, makeblastdb) | 2.12.0+ | `-evalue 1e-10 -max_target_seqs 5`, other parameters default (Section 4.4) |
 | AlphaFold | 3 (AlphaFold Server) | |
 | Foldseek | 10.941cd33 | |
 | Python | 3.11.13 | custom scripts |
 | pandas / NumPy / SciPy | 3.0.3 / 2.4.6 / 1.17.1 | tables, statistics |
 | matplotlib | 3.11.1 | figures |
-| ete3 | 3.1.3 | species-tree plotting |
+| ete3 | 3.1.3 | species-tree plotting; tree pruning (`phylogeny/prune_tree_en.py`) |
 
 ## Pipeline and folders
 
@@ -89,7 +90,8 @@ Conda environment specifications are provided in `env_specs/`.
 | Script | What it does | Output |
 |---|---|---|
 | `selection/prepare_hyphy_input_en.py` | Recovers the in-frame nucleotide sequence of each protein (miniprot GFF or `getorf`) and threads it into the OrthoFinder protein alignment | `<OG>_codon_alignment.fasta` |
-| `selection/prune_tree_to_alignment.py` | Prunes the IQ-TREE gene tree to the sequences of the codon alignment | `<OG>_pruned.treefile` |
+| `phylogeny/prune_tree_en.py` | Prunes the IQ-TREE gene tree to the sequences of the codon alignment (ete3) | `<OG>_pruned.treefile` |
+| `selection/prune_tree_to_alignment.py` | Independent check: prunes the tree with Biopython and compares tip sets and patristic distances with the `_pruned.treefile` used for HyPhy (`--compare`) | `<OG>_pruned_check.treefile` |
 | `selection/run_hyphy_en.sh` | HyPhy FEL and MEME on the codon alignment and pruned tree (default parameters) | `<OG>_FEL.json`, `<OG>_MEME.json` |
 | `selection/summarize_hyphy_results_en.py` | Site counts and significant sites from the FEL and MEME output | `hyphy_summary.csv`, `hyphy_significant_sites.csv` |
 | `selection/selection_summary.py` | Copies kept and lost, focal species, ploidy, informative codons and FEL/MEME counts per orthogroup | `data/selection_summary.csv`, `data/selection_summary_composition.csv` |
@@ -98,5 +100,16 @@ Conda environment specifications are provided in `env_specs/`.
 
 The codon alignment, pruned tree and HyPhy output of each of the five orthogroups are in `data/selection/<OG>/`, and the tree of OG0000000 used for Fig. 4 is `data/OG0000000.treefile`.
 
-*(Tables for the next results sections are added here.)*
 
+
+### 4.4 Similarity to experimentally characterised NLRs (RefPlantNLR)
+
+| Script | What it does | Output |
+|---|---|---|
+| `structure/extract_proteins_for_blast_en.py` | Ungapped protein sequences of the members of each orthogroup, from the `Results_Jul07` OrthoFinder alignments | `<OG>_proteins_for_blast.fasta` |
+| `validation/run_blast_validation_en.sh` | Builds the RefPlantNLR database and runs `blastp` (E-value 1e-10, up to five targets per query) | `data/blast_results/<OG>_blast_results.tsv` |
+| `validation/summarize_blast_results_en.py` | Best hit (highest bit score) per protein, reference groups, identity and coverage | `data/blast_validation_summary.csv`, `data/blast_validation_by_orthogroup.csv` |
+
+The RefPlantNLR protein set (Kourelis et al., 2021; 415 sequences) is not redistributed here; its source is given in the thesis (Section 3.8, Annex A20).
+
+*(Tables for the next results sections are added here.)*

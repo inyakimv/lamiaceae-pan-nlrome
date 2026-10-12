@@ -18,7 +18,7 @@ Usage:
     python3 prepare_hyphy_input_en.py OG0000038
 
 Requires:
-    - 03_orthofinder/proteomes/OrthoFinder/Results_*/MultipleSequenceAlignments/<OG>.fa
+    - 03_orthofinder/proteomes/OrthoFinder/Results_Jul07/MultipleSequenceAlignments/<OG>.fa
     - 02c_nlr_refined/<genome>/miniprot.gff and nlr_flanked.fasta (for miniprot)
     - 02c_nlr_refined/<genome>/nlr_plain_clean.fasta (for getorf)
     - EMBOSS (getorf) and Biopython installed
@@ -43,7 +43,7 @@ LENGTH_TOLERANCE_AA = 15
 PROJECT_DIR = os.path.expanduser("~/project")
 REFINED_DIR = os.path.join(PROJECT_DIR, "02c_nlr_refined")
 ORTHOFINDER_RESULTS = glob.glob(os.path.join(
-    PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_*"
+    PROJECT_DIR, "03_orthofinder/proteomes/OrthoFinder/Results_Jul07"
 ))
 
 
