@@ -124,3 +124,8 @@ The NB-ARC tree (Newick, with ultrafast-bootstrap values), the identifier map an
 - `scripts/structure/foldseek_statistics_unordered_en.py`: unordered pairs, Mann–Whitney U test, permutation test and leave-one-orthogroup-out analysis.
 - `scripts/structure/plot_foldseek_violins_en.py`: Fig. 5.
 - Outputs (tables and figures) are in `results/structure/`.
+
+## Notes on the scripts
+- Paths (/data/tfg_users/mollai/...) are those of the server where the analysis was run. To reproduce, change the variables PROJECT, HOME or NLR_HMM at the top of each script.
+- `scripts/structure/*_ancestral_*`: structural analysis of reconstructed ancestral sequences, used in the paper and not in the master's thesis.
+- `scripts/archive_not_used_in_thesis/`: earlier or one-off versions kept for the record.

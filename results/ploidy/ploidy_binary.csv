@@ -1,0 +1,47 @@
+species,ploidy,status
+Scutellaria baicalensis,diploid,CCDB + assembly statistics
+Pogostemon cablin,polyploid,"literature (tetraploid hybrid, Nat Commun 2022)"
+Thymus quinquecostatus,diploid,CCDB + assembly statistics
+Scutellaria barbata,diploid,CCDB + assembly statistics
+Lavandula angustifolia,diploid,"assembly structure (25 chromosomes), CCDB mixed"
+Thymus mandschuricus,diploid,CCDB + assembly statistics
+Schizonepeta tenuifolia,diploid,"unresolved, assumed diploid"
+Paraleonurus japonicus,diploid,CCDB + assembly statistics
+Agastache rugosa,diploid,CCDB + assembly statistics
+Salvia rosmarinus,diploid,CCDB + assembly statistics
+Dracocephalum rupestre,diploid,assembly structure (7 chromosomes)
+Drepanocaryum sewerzowii,diploid,CCDB + assembly statistics
+Marmoritis complanata,diploid,genome report (9 pseudomolecules)
+Mentha x piperita,polyploid,paper
+Salvia sclarea,diploid,CCDB + assembly statistics
+Mentha suaveolens,diploid,CCDB + assembly statistics
+Prunella vulgaris,diploid,CCDB + assembly statistics
+Ocimum basilicum,polyploid,"CCDB (2n=48, x=12)"
+Clinopodium barosmum,diploid,"unresolved, assumed diploid"
+Callicarpa nudiflora,diploid,assembly structure (17 chromosomes)
+Elsholtzia splendens,diploid,CCDB + assembly statistics
+Isodon lophanthoides,diploid,CCDB + assembly statistics
+Phlomoides rotata,diploid,assembly structure (11 chromosomes)
+Mentha longifolia,diploid,CCDB + assembly statistics
+Agastache foeniculum,diploid,CCDB + assembly statistics
+Salvia divinorum,diploid,CCDB + assembly statistics
+Lycopus lucidus,diploid,PloiDB (n=11); duplicated BUSCO suggests two haplotypes
+Coleus hadiensis,diploid,CCDB + assembly statistics
+Scutellaria galericulata,diploid,CCDB + assembly statistics
+Ballota nigra,diploid,CCDB + assembly statistics
+Scutellaria minor,diploid,CCDB + assembly statistics
+Ajuga chamaepitys,diploid,CCDB + assembly statistics
+Galeopsis tetrahit,polyploid,"CCDB (2n=32, x=8)"
+Lamium amplexicaule,diploid,CCDB + assembly statistics
+Lamium purpureum,diploid,CCDB + assembly statistics
+Melittis melissophyllum,diploid,CCDB + assembly statistics
+Teucrium scorodonia,diploid,CCDB + assembly statistics
+Stachys alpina,diploid,CCDB + assembly statistics
+Ajuga reptans,diploid,CCDB + assembly statistics
+Glechoma hederacea,polyploid,"literature + CCDB (2n=36, diploidized tetraploid)"
+Mentha aquatica,polyploid,"CCDB (2n=96, x=12)"
+Teucrium botrys,diploid,CCDB + assembly statistics
+Plectranthus ornatus,diploid,PloiDB (n=16); duplicated BUSCO suggests two haplotypes
+Salvia splendens,polyploid,"literature (tetraploid, Hort Res 2021)"
+Salvia hispanica,diploid,CCDB + assembly statistics
+Salvia miltiorrhiza,diploid,CCDB + assembly statistics

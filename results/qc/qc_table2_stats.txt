@@ -1,0 +1,15 @@
+n genomes: 46
+counts column: nlr_annotator_complete
+Pearson genome size vs NLR count: r = 0.451, p = 0.0017
+Pearson genome size vs NLR density: r = -0.511, p = 0.00028
+Tukey upper fence on NLR counts: 792
+Outliers:
+          species  nlr_annotator_complete  busco_complete_pct
+Mentha x piperita                    1583                97.9
+BUSCO complete < 95%:
+              species  busco_complete_pct  nlr_annotator_complete
+Marmoritis complanata                93.4                     125
+     Salvia hispanica                93.5                     490
+  Salvia miltiorrhiza                91.1                     537
+Duplicated BUSCO: >=90%: 8 | 40-90%: 4 | <40%: 34
+Python 3.11.13, pandas 3.0.3, NumPy 2.4.6, SciPy 1.17.1

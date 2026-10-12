@@ -1,0 +1,16 @@
+candidate,n_residues,mean_plddt,pct_residues_low_confidence,mean_pae,classification
+og0000000_nc062966_1_nlr114,744,79.7,7.8,14.6,confident
+og0000000_nc_080387_1_nlr5,714,81.6,5.5,13.8,confident
+og0000000_nw_026651424_1_nlr8,715,83.1,5.0,13.3,confident
+og0000008_oy776119_1_nlr14,631,82.7,2.7,12.6,confident
+og0000008_oy776132_1_nlr23,727,80.2,7.0,14.3,confident
+og0000008_oy776132_1_nlr39,714,80.1,4.9,13.7,confident
+og0000018_cm082879_1_nlr38,714,81.5,6.2,12.6,confident
+og0000018_cm082881_1_nlr256,661,84.0,2.3,11.5,confident
+og0000018_cm082923_1_nlr118,715,82.4,6.3,12.1,confident
+og0000029_cm0828801_nlr227,696,79.4,7.8,12.9,confident
+og0000029_cm082880_1_nlr222,696,81.0,7.0,12.1,confident
+og0000029_cm082880_1_nlr223,696,83.3,6.0,12.1,confident
+og0000038_nc_056049_1_nlr15,979,84.2,2.7,12.0,confident
+og0000038_nc_0629651_nlr6,1055,82.0,4.1,15.1,confident
+og0000038_nw_025951394_1_nlr1,1068,81.2,5.9,14.6,confident
