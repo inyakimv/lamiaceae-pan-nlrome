@@ -118,3 +118,9 @@ The RefPlantNLR protein set (Kourelis et al., 2021; 415 sequences) is not redist
 The NB-ARC tree (Newick, with ultrafast-bootstrap values), the identifier map and the placement table are in `data/nbarc_tree/`. Alignments that contain RefPlantNLR sequences are not redistributed.
 
 *(Tables for the next results sections are added here.)*
+
+## Annex A21: structural comparison
+
+- `scripts/structure/foldseek_statistics_unordered_en.py`: unordered pairs, Mann–Whitney U test, permutation test and leave-one-orthogroup-out analysis.
+- `scripts/structure/plot_foldseek_violins_en.py`: Fig. 5.
+- Outputs (tables and figures) are in `results/structure/`.

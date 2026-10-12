@@ -1,0 +1,5 @@
+score,n_within,n_between,median_within,median_between,mean_within,mean_between,min_within,min_between,frac_ge_0.5_within,frac_ge_0.5_between,U,p_MannWhitney_unordered,rank_biserial_within_minus_between,p_permutation_labels
+alntmscore,15,90,0.959,0.787,0.862,0.801,0.664,0.522,1.0,1.0,905.0,0.0356,0.341,0.00066
+tm_mean_norm,15,90,0.927,0.648,0.822,0.719,0.636,0.425,1.0,0.867,1056.0,0.000493,0.564,1e-05
+tm_min_norm,15,90,0.898,0.598,0.806,0.669,0.605,0.329,1.0,0.789,1072.0,0.000282,0.588,0.0001
+fident,15,90,0.717,0.231,0.612,0.281,0.303,0.05,0.6,0.078,1122.0,4.33e-05,0.662,1e-05

@@ -1,0 +1,11 @@
+score,dropped_orthogroup,n_within,n_between,median_within,median_between,p_MannWhitney
+tm_mean_norm,og0000000,12,54,0.93,0.632,0.000299
+tm_mean_norm,og0000008,12,54,0.933,0.635,0.000299
+tm_mean_norm,og0000018,12,54,0.772,0.628,0.00353
+tm_mean_norm,og0000029,12,54,0.772,0.636,0.00536
+tm_mean_norm,og0000038,12,54,0.933,0.886,0.0123
+alntmscore,og0000000,12,54,0.959,0.77,0.0156
+alntmscore,og0000008,12,54,0.969,0.771,0.03
+alntmscore,og0000018,12,54,0.828,0.77,0.132
+alntmscore,og0000029,12,54,0.828,0.771,0.203
+alntmscore,og0000038,12,54,0.969,0.933,0.0355
