@@ -12,7 +12,7 @@ Conda environment specifications are provided in `env_specs/`.
 | NLR-Annotator | 2.1b | default parameters |
 | ANNEVO | 2.3.2 | `-l Magnoliopsida -t 24`, GPU; Python 3.10.20, PyTorch 2.1.0 (CUDA 12.1) |
 | AGAT | 1.7.0 | `agat_sp_extract_sequences.pl -p` |
-| HMMER (hmmscan) | 3.3.2 | default parameters, `--cpu 8` |
+| HMMER (hmmscan) | 3.3.2 | default parameters, `--cpu 8`; NB-ARC domain search of Section 4.4 with `--cut_ga` |
 | Pfam | 37.1 | NB-ARC, LRR_1/3/4/8, TIR, TIR_2 profiles |
 | miniprot | 0.18-r281 | default parameters (`--gff`) |
 | EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` (protein ORFs); `-find 3 -minsize 300` (nucleotide recovery in `selection/`) |
@@ -21,7 +21,8 @@ Conda environment specifications are provided in `env_specs/`.
 | FAMSA (OrthoFinder environment) | 2.4.1 | protein alignments run inside OrthoFinder (orthogroup alignments of Section 4.3) |
 | DIAMOND (OrthoFinder environment) | 2.2.2 | sequence searches run inside OrthoFinder |
 | FastTree (OrthoFinder environment) | 2.2.0 | gene trees run inside OrthoFinder (not used for Section 4.3) |
-| IQ-TREE | 3.1.2 | `-m MFP -bb 1000 -nt 4` (gene trees of Section 4.3) |
+| IQ-TREE | 3.1.2 | `-m MFP -bb 1000 -nt 4` (gene trees of Section 4.3; NB-ARC tree of Section 4.4) |
+| MAFFT | 7.525 | NB-ARC domain alignment of Section 4.4 (`--auto --thread 8`) |
 | HyPhy | 2.5.100 (MP) | FEL / MEME, default parameters |
 | BLAST+ (blastp, makeblastdb) | 2.12.0+ | `-evalue 1e-10 -max_target_seqs 5`, other parameters default (Section 4.4) |
 | AlphaFold | 3 (AlphaFold Server) | |
@@ -109,7 +110,11 @@ The codon alignment, pruned tree and HyPhy output of each of the five orthogroup
 | `structure/extract_proteins_for_blast_en.py` | Ungapped protein sequences of the members of each orthogroup, from the `Results_Jul07` OrthoFinder alignments | `<OG>_proteins_for_blast.fasta` |
 | `validation/run_blast_validation_en.sh` | Builds the RefPlantNLR database and runs `blastp` (E-value 1e-10, up to five targets per query) | `data/blast_results/<OG>_blast_results.tsv` |
 | `validation/summarize_blast_results_en.py` | Best hit (highest bit score) per protein, reference groups, identity and coverage | `data/blast_validation_summary.csv`, `data/blast_validation_by_orthogroup.csv` |
+| `validation/run_nbarc_phylogeny_en.sh` | Stages `prepare` (NB-ARC domains with `hmmscan`, MAFFT, column trimming), `tree` (IQ-TREE, `-m MFP -bb 1000`) and `placement` | `11_nbarc_tree/` (see `data/nbarc_tree/`) |
+| `validation/nbarc_tools_en.py` | Helper called by the script above: joins queries and RefPlantNLR, extracts the NB-ARC domain, trims the alignment, and reports the smallest clade with reference proteins (and UFBoot) for every Lamiaceae protein | `nbarc_tree_placement.csv` |
 
 The RefPlantNLR protein set (Kourelis et al., 2021; 415 sequences) is not redistributed here; its source is given in the thesis (Section 3.8, Annex A20).
+
+The NB-ARC tree (Newick, with ultrafast-bootstrap values), the identifier map and the placement table are in `data/nbarc_tree/`. Alignments that contain RefPlantNLR sequences are not redistributed.
 
 *(Tables for the next results sections are added here.)*
