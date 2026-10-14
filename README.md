@@ -15,7 +15,7 @@ Conda environment specifications are provided in `env_specs/`.
 | HMMER (hmmscan) | 3.3.2 | default parameters, `--cpu 8`; NB-ARC domain search of Section 4.4 with `--cut_ga` |
 | Pfam | 37.1 | NB-ARC, LRR_1/3/4/8, TIR, TIR_2 profiles |
 | miniprot | 0.18-r281 | default parameters (`--gff`) |
-| EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` (protein ORFs); `-find 3 -minsize 300` (nucleotide recovery in `selection/`) |
+| EMBOSS (getorf) | 6.6.0.0 | `-find 1 -minsize 300` (protein ORFs); `-find 3 -minsize 300` (nucleotide recovery in `scripts/selection/`) |
 | Biopython | 1.87 | custom scripts |
 | OrthoFinder | 3.1.5 | `orthofinder -f <proteomes> -t 32 -a 32` |
 | FAMSA (OrthoFinder environment) | 2.4.1 | protein alignments run inside OrthoFinder (orthogroup alignments of Section 4.3) |
@@ -30,25 +30,25 @@ Conda environment specifications are provided in `env_specs/`.
 | Python | 3.11.13 | custom scripts |
 | pandas / NumPy / SciPy | 3.0.3 / 2.4.6 / 1.17.1 | tables, statistics |
 | matplotlib | 3.11.1 | figures |
-| ete3 | 3.1.3 | species-tree plotting; tree pruning (`phylogeny/prune_tree_en.py`) |
+| ete3 | 3.1.3 | species-tree plotting; tree pruning (`scripts/phylogeny/prune_tree_en.py`) |
 
 ## Pipeline and folders
 
 | Folder | Purpose |
 |---|---|
-| `qc/` | Assembly statistics (SeqKit), gene-space completeness (BUSCO), Mash identity check and Table 2 |
-| `annotation/` | NLR identification (NLR-Annotator), ANNEVO gene prediction, protein extraction, HMMER domain search and per-genome summary tables |
-| `method_comparison/` | Comparison of NLR detection methods |
-| `orthology/` | Orthogroup inference (OrthoFinder) and tandem-duplication analysis |
-| `ploidy/` | Ploidy assignment per genome (CCDB, literature, assembly structure) |
-| `figures/` | Scripts that generate the figures (white background, no gridlines) |
-| `phylogeny/` | Scripts to build and prune the orthogroup maximum-likelihood trees (IQ-TREE; protein alignments from OrthoFinder) |
-| `selection/` | Codon alignments and selection tests (HyPhy FEL/MEME) |
-| `structure/` | Structural comparison of NLR candidates (AlphaFold, Foldseek) |
-| `validation/` | Validation against the RefPlantNLR reference set (BLAST) |
-| `data/` | Input and intermediate tables used by the scripts (CSV) |
-| `results_tables/` | Result tables (e.g. Mash distances) |
-| `output/figures/` | Source data behind each figure panel (CSV) |
+| `scripts/qc/` | Assembly statistics (SeqKit), gene-space completeness (BUSCO), Mash identity check and Table 2 |
+| `scripts/annotation/` | NLR identification (NLR-Annotator), ANNEVO gene prediction, protein extraction, HMMER domain search and per-genome summary tables |
+| `scripts/method_comparison/` | Comparison of NLR detection methods |
+| `scripts/orthology/` | Orthogroup inference (OrthoFinder) and tandem-duplication analysis |
+| `scripts/ploidy/` | Ploidy assignment per genome (CCDB, literature, assembly structure) |
+| `scripts/figures/` | Scripts that generate the figures (white background, no gridlines) |
+| `scripts/phylogeny/` | Scripts to build and prune the orthogroup maximum-likelihood trees (IQ-TREE; protein alignments from OrthoFinder) |
+| `scripts/selection/` | Codon alignments and selection tests (HyPhy FEL/MEME) |
+| `scripts/structure/` | Structural comparison of NLR candidates (AlphaFold, Foldseek) |
+| `scripts/validation/` | Validation against the RefPlantNLR reference set (BLAST) |
+| `data/` | Input tables (ploidy worksheet, CCDB, assembly counts), codon alignments and HyPhy output, BLAST results, NB-ARC tree, NLR HMM profiles (`data/hmm/`) |
+| `results/` | Computed tables and figures by topic (`qc/`, `ploidy/`, `methods/`, `orthology/`, `structure/`, `figure_source_data/`) |
+| `results/figure_source_data/` | Source data behind each figure panel (CSV) |
 
 ## Scripts by results section
 
@@ -56,48 +56,48 @@ Conda environment specifications are provided in `env_specs/`.
 
 | Script | What it does | Output |
 |---|---|---|
-| `qc/qc_seqkit_busco_flat.sh` | SeqKit statistics and BUSCO for each assembly | `data/qc_summary.csv` |
-| `qc/verify_seqkit_columns.sh` | Checks the SeqKit v2.13.0 column positions (N50, GC) | printed check |
-| `qc/mash_mentha_check.sh` | Mash sketches and pairwise distances among *Mentha* assemblies and reference species | `results_tables/mash_mentha_check.tsv` |
-| `qc/combine_qc_nlr_fixed.sh` | Merges QC statistics with NLR counts | merged QC and NLR table |
-| `qc/qc_table2_and_correlations.py` | Assembly QC summary table, outlier fence and Pearson correlations (genome size vs NLR count and density) | printed tables |
-| `ploidy/fetch_ploidy_ccdb.py` | Chromosome-number records from the Chromosome Counts Database | `data/ccdb_summary.csv` |
-| `ploidy/assembly_chromosome_counts.py` | Sequence counts per assembly, including sequences of at least 1 Mb | `data/assembly_chromosome_counts.csv` |
-| `ploidy/build_ploidy_worksheet.py` | Combines CCDB, assembly and BUSCO evidence into one worksheet | `data/ploidy_worksheet.csv` |
-| `ploidy/make_binary_ploidy.py` | Diploid / polyploid table | `data/ploidy_binary.csv` |
-| `figures/plot_nlr_ploidy.py` | NLR candidates per genome next to the species tree, coloured by ploidy | `output/figures/Fig1a_source_data.csv` |
-| `orthology/run_orthofinder.sh` | Orthogroup inference with OrthoFinder (run `Results_Jul07`) | OrthoFinder results |
-| `orthology/analyze_tandem_46species.py` | Tandem clusters of the most expanded NLR orthogroup per species (threshold 500 kb) | `data/tandem_analysis_46species.csv` |
-| `orthology/tandem_summary_stats.py` | Median, range and correlations for the tandem analysis | printed summary |
-| `figures/plot_tandem_hist.py` | Distribution of tandem-clustered loci across species | `output/figures/Fig1b_tandem_hist_source_data.csv` |
+| `scripts/qc/qc_seqkit_busco_flat.sh` | SeqKit statistics and BUSCO for each assembly | `results/qc/qc_summary.csv` |
+| `scripts/qc/verify_seqkit_columns.sh` | Checks the SeqKit v2.13.0 column positions (N50, GC) | printed check |
+| `scripts/qc/mash_mentha_check.sh` | Mash sketches and pairwise distances among *Mentha* assemblies and reference species | `results/qc/mash_mentha_check.tsv` |
+| `scripts/qc/combine_qc_nlr_fixed.sh` | Merges QC statistics with NLR counts | merged QC and NLR table |
+| `scripts/qc/qc_table2_and_correlations.py` | Assembly QC summary table, outlier fence and Pearson correlations (genome size vs NLR count and density) | printed tables |
+| `scripts/ploidy/fetch_ploidy_ccdb.py` | Chromosome-number records from the Chromosome Counts Database | `data/ccdb_summary.csv` |
+| `scripts/ploidy/assembly_chromosome_counts.py` | Sequence counts per assembly, including sequences of at least 1 Mb | `data/assembly_chromosome_counts.csv` |
+| `scripts/ploidy/build_ploidy_worksheet.py` | Combines CCDB, assembly and BUSCO evidence into one worksheet | `data/ploidy_worksheet.csv` |
+| `scripts/ploidy/make_binary_ploidy.py` | Diploid / polyploid table | `results/ploidy/ploidy_binary.csv` |
+| `scripts/figures/plot_nlr_ploidy.py` | NLR candidates per genome next to the species tree, coloured by ploidy | `results/figure_source_data/Fig1a_source_data.csv` |
+| `scripts/orthology/run_orthofinder.sh` | Orthogroup inference with OrthoFinder (run `Results_Jul07`) | OrthoFinder results |
+| `scripts/orthology/analyze_tandem_46species.py` | Tandem clusters of the most expanded NLR orthogroup per species (threshold 500 kb) | `results/orthology/tandem_analysis_46species.csv` |
+| `scripts/orthology/tandem_summary_stats.py` | Median, range and correlations for the tandem analysis | printed summary |
+| `scripts/figures/plot_tandem_hist.py` | Distribution of tandem-clustered loci across species | `results/figure_source_data/Fig1b_tandem_hist_source_data.csv` |
 
 ### 4.2 Cross-validation between NLR-Annotator and ANNEVO+HMMER
 
 | Script | What it does | Output |
 |---|---|---|
-| `annotation/run_annevo_batch.sh` | Gene prediction with ANNEVO for each genome | `<genome>.annevo.gff3` |
-| `annotation/extract_annevo_proteins.sh` | Protein sequences from the ANNEVO gene models (AGAT) | `<genome>.annevo_proteins.fasta` |
-| `annotation/run_hmmer_nlr_search.sh` | `hmmscan` of the proteins against the NLR profiles (default parameters) | `<genome>.domtblout` |
-| `annotation/nlr_profiles.hmm` | Seven Pfam profiles: NB-ARC, LRR_1, LRR_3, LRR_4, LRR_8, TIR, TIR_2 | profile database |
-| `method_comparison/compare_nlr_methods_refined.py` | Per-species complete-like candidates (NB-ARC and at least one LRR in the same protein) next to NLR-Annotator counts | `data/nlr_method_comparison_detailed.csv` |
-| `method_comparison/compare_nlr_loci.py` | Overlap of NLR-Annotator loci and ANNEVO+HMMER genes (same scaffold, at least one shared base, strand ignored) | `data/nlr_locus_comparison.csv` |
-| `method_comparison/gene_size_distribution.py` | Locus length of each method, pooled over genomes; Mann-Whitney U test | `data/gene_lengths_nlr_annotator.csv`, `data/gene_lengths_annevo.csv` |
-| `figures/plot_method_comparison.py` | Both panels of the comparison figure; Pearson and Spearman correlations, Cliff's delta | `output/figures/Fig2_method_comparison_source_data_a.csv`, `..._b_summary.csv` |
+| `scripts/annotation/run_annevo_batch.sh` | Gene prediction with ANNEVO for each genome | `<genome>.annevo.gff3` |
+| `scripts/annotation/extract_annevo_proteins.sh` | Protein sequences from the ANNEVO gene models (AGAT) | `<genome>.annevo_proteins.fasta` |
+| `scripts/annotation/run_hmmer_nlr_search.sh` | `hmmscan` of the proteins against the NLR profiles (default parameters) | `<genome>.domtblout` |
+| `data/hmm/nlr_profiles.hmm` | Seven Pfam profiles: NB-ARC, LRR_1, LRR_3, LRR_4, LRR_8, TIR, TIR_2 | profile database |
+| `scripts/method_comparison/compare_nlr_methods_refined.py` | Per-species complete-like candidates (NB-ARC and at least one LRR in the same protein) next to NLR-Annotator counts | `results/methods/nlr_method_comparison_detailed.csv` |
+| `scripts/method_comparison/compare_nlr_loci.py` | Overlap of NLR-Annotator loci and ANNEVO+HMMER genes (same scaffold, at least one shared base, strand ignored) | `results/methods/nlr_locus_comparison.csv` |
+| `scripts/method_comparison/gene_size_distribution.py` | Locus length of each method, pooled over genomes; Mann-Whitney U test | `results/methods/gene_lengths_nlr_annotator.csv`, `results/methods/gene_lengths_annevo.csv` |
+| `scripts/figures/plot_method_comparison.py` | Both panels of the comparison figure; Pearson and Spearman correlations, Cliff's delta | `results/figure_source_data/Fig2_method_comparison_source_data_a.csv`, `..._b_summary.csv` |
 
-`method_comparison/compare_nlr_methods.py` is the first version of the comparison (it counted proteins with NB-ARC only) and is kept for reference.
+`scripts/method_comparison/compare_nlr_methods.py` is the first version of the comparison (it counted proteins with NB-ARC only) and is kept for reference.
 
 ### 4.3 Positive selection in five NLR orthogroups across ploidy levels and degrees of expansion concentration
 
 | Script | What it does | Output |
 |---|---|---|
-| `selection/prepare_hyphy_input_en.py` | Recovers the in-frame nucleotide sequence of each protein (miniprot GFF or `getorf`) and threads it into the OrthoFinder protein alignment | `<OG>_codon_alignment.fasta` |
-| `phylogeny/prune_tree_en.py` | Prunes the IQ-TREE gene tree to the sequences of the codon alignment (ete3) | `<OG>_pruned.treefile` |
-| `selection/prune_tree_to_alignment.py` | Independent check: prunes the tree with Biopython and compares tip sets and patristic distances with the `_pruned.treefile` used for HyPhy (`--compare`) | `<OG>_pruned_check.treefile` |
-| `selection/run_hyphy_en.sh` | HyPhy FEL and MEME on the codon alignment and pruned tree (default parameters) | `<OG>_FEL.json`, `<OG>_MEME.json` |
-| `selection/summarize_hyphy_results_en.py` | Site counts and significant sites from the FEL and MEME output | `hyphy_summary.csv`, `hyphy_significant_sites.csv` |
-| `selection/selection_summary.py` | Copies kept and lost, focal species, ploidy, informative codons and FEL/MEME counts per orthogroup | `data/selection_summary.csv`, `data/selection_summary_composition.csv` |
-| `figures/plot_selection_summary.py` | Fig. 3: sites under selection per orthogroup | `output/figures/Fig3_selection_source_data.csv` |
-| `figures/plot_og_tree.py` | Fig. 4: circular gene tree of OG0000000 coloured by species, with the per-species block table | `output/figures/Fig4_OG0000000_tree_species_blocks.csv`, `output/figures/Fig4_OG0000000_tree_tips.csv` |
+| `scripts/selection/prepare_hyphy_input_en.py` | Recovers the in-frame nucleotide sequence of each protein (miniprot GFF or `getorf`) and threads it into the OrthoFinder protein alignment | `<OG>_codon_alignment.fasta` |
+| `scripts/phylogeny/prune_tree_en.py` | Prunes the IQ-TREE gene tree to the sequences of the codon alignment (ete3) | `<OG>_pruned.treefile` |
+| `scripts/selection/prune_tree_to_alignment.py` | Independent check: prunes the tree with Biopython and compares tip sets and patristic distances with the `_pruned.treefile` used for HyPhy (`--compare`) | `<OG>_pruned_check.treefile` |
+| `scripts/selection/run_hyphy_en.sh` | HyPhy FEL and MEME on the codon alignment and pruned tree (default parameters) | `<OG>_FEL.json`, `<OG>_MEME.json` |
+| `scripts/selection/summarize_hyphy_results_en.py` | Site counts and significant sites from the FEL and MEME output | `hyphy_summary.csv`, `hyphy_significant_sites.csv` |
+| `scripts/selection/selection_summary.py` | Copies kept and lost, focal species, ploidy, informative codons and FEL/MEME counts per orthogroup | `data/selection_summary.csv`, `data/selection_summary_composition.csv` |
+| `scripts/figures/plot_selection_summary.py` | Fig. 3: sites under selection per orthogroup | `results/figure_source_data/Fig3_selection_source_data.csv` |
+| `scripts/figures/plot_og_tree.py` | Fig. 4: circular gene tree of OG0000000 coloured by species, with the per-species block table | `results/figure_source_data/Fig4_OG0000000_tree_species_blocks.csv`, `results/figure_source_data/Fig4_OG0000000_tree_tips.csv` |
 
 The codon alignment, pruned tree and HyPhy output of each of the five orthogroups are in `data/selection/<OG>/`, and the tree of OG0000000 used for Fig. 4 is `data/OG0000000.treefile`.
 
@@ -107,11 +107,11 @@ The codon alignment, pruned tree and HyPhy output of each of the five orthogroup
 
 | Script | What it does | Output |
 |---|---|---|
-| `structure/extract_proteins_for_blast_en.py` | Ungapped protein sequences of the members of each orthogroup, from the `Results_Jul07` OrthoFinder alignments | `<OG>_proteins_for_blast.fasta` |
-| `validation/run_blast_validation_en.sh` | Builds the RefPlantNLR database and runs `blastp` (E-value 1e-10, up to five targets per query) | `data/blast_results/<OG>_blast_results.tsv` |
-| `validation/summarize_blast_results_en.py` | Best hit (highest bit score) per protein, reference groups, identity and coverage | `data/blast_validation_summary.csv`, `data/blast_validation_by_orthogroup.csv` |
-| `validation/run_nbarc_phylogeny_en.sh` | Stages `prepare` (NB-ARC domains with `hmmscan`, MAFFT, column trimming), `tree` (IQ-TREE, `-m MFP -bb 1000`) and `placement` | `11_nbarc_tree/` (see `data/nbarc_tree/`) |
-| `validation/nbarc_tools_en.py` | Helper called by the script above: joins queries and RefPlantNLR, extracts the NB-ARC domain, trims the alignment, and reports the smallest clade with reference proteins (and UFBoot) for every Lamiaceae protein | `nbarc_tree_placement.csv` |
+| `scripts/structure/extract_proteins_for_blast_en.py` | Ungapped protein sequences of the members of each orthogroup, from the `Results_Jul07` OrthoFinder alignments | `<OG>_proteins_for_blast.fasta` |
+| `scripts/validation/run_blast_validation_en.sh` | Builds the RefPlantNLR database and runs `blastp` (E-value 1e-10, up to five targets per query) | `data/blast_results/<OG>_blast_results.tsv` |
+| `scripts/validation/summarize_blast_results_en.py` | Best hit (highest bit score) per protein, reference groups, identity and coverage | `data/blast_validation_summary.csv`, `data/blast_validation_by_orthogroup.csv` |
+| `scripts/validation/run_nbarc_phylogeny_en.sh` | Stages `prepare` (NB-ARC domains with `hmmscan`, MAFFT, column trimming), `tree` (IQ-TREE, `-m MFP -bb 1000`) and `placement` | `11_nbarc_tree/` (see `data/nbarc_tree/`) |
+| `scripts/validation/nbarc_tools_en.py` | Helper called by the script above: joins queries and RefPlantNLR, extracts the NB-ARC domain, trims the alignment, and reports the smallest clade with reference proteins (and UFBoot) for every Lamiaceae protein | `nbarc_tree_placement.csv` |
 
 The RefPlantNLR protein set (Kourelis et al., 2021; 415 sequences) is not redistributed here; its source is given in the thesis (Section 3.8, Annex A20).
 
