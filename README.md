@@ -126,6 +126,5 @@ The NB-ARC tree (Newick, with ultrafast-bootstrap values), the identifier map an
 - Outputs (tables and figures) are in `results/structure/`.
 
 ## Notes on the scripts
-- Paths (/data/tfg_users/mollai/...) are those of the server where the analysis was run. To reproduce, change the variables PROJECT, HOME or NLR_HMM at the top of each script.
-- `scripts/structure/*_ancestral_*`: structural analysis of reconstructed ancestral sequences, used in the paper and not in the master's thesis.
+- Paths (/data/tfg_users/mollai/...) are those of the server where the analysis was run. To reproduce, change the variables 
 - `scripts/archive_not_used_in_thesis/`: earlier or one-off versions kept for the record.
