@@ -1,0 +1,23 @@
+# Large data (kept on the server, all genomes are public, see Annex Table A1)
+*.fa
+*.fasta
+*.fna
+*.faa
+*.gff
+*.gff3
+*.bam
+*.tar.gz
+*.zip
+*.pdb
+*.cif
+# Pipeline working folders
+archive/
+logs/
+tmp/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
