@@ -6,7 +6,7 @@
 |---|---|---|
 | MAFFT | 7.490 | clade-level alignments of Section 4.5 (`--auto --thread 8`) |
 | IQ-TREE | 3.1.4 | clade-level trees of Section 4.5 (`-m MFP -mset LG,WAG,JTT,Q.plant,Q.pfam -mrate G4 -B 1000 -alrt 1000 -T 8`) |
-| cd-hit | [fill in] | 85% identity clustering of NB-ARC domains (Section 4.5) |
+| cd-hit |4.8.1 (built on Apr 24 2025)  | 85% identity clustering of NB-ARC domains (Section 4.5) |
 
 ### 2. Folders (add these rows to the table)
 
