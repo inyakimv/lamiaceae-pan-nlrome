@@ -15,7 +15,7 @@ Scripts to partition the NB-ARC phylogeny of Lamiaceae NLRs into clades, annotat
 
 ## Method in brief
 
-1. **Clades.** The tree is rooted at the midpoint and cut into maximal subtrees of at most 300 leaves (85 clades for the published tree). Each clade is annotated with the RefPlantNLR references it contains and their class (CNL, TNL, RNL, from Table S1).
+1. **Clades.** The tree is midpoint-rooted only to cut it into maximal subtrees of at most 300 leaves (85 clades for the published tree); the figure is then re-rooted (step 3). Each clade is annotated with the RefPlantNLR references it contains and their class (CNL, TNL, RNL, from Table S1).
 2. **Gene counts.** The tree was built from cd-hit representatives (85% identity). Each representative is expanded with the members of its cluster, so clade sizes in steps 2 and 3 are counted in genes, not tree leaves.
 3. **Conserved low-copy clades.** A clade is flagged when it contains Lamiaceae genes from at least 35 of the 46 species and has at most 3 genes per species on average (thresholds in `core()` in script 03; the conserved clades were stable across 30–45 species and ≤2–5 copies per species, see `Table_S_threshold_sensitivity.tsv`). Clades whose median is one copy per species are drawn darker (`stable()`), the rest are widespread but locally expanded.
 4. **Figure.** Circular layout, inside to outside: collapsed tree; share of leaves by origin (Lamiaceae, Arabidopsis, reference CNL, TNL, RNL); number of Lamiaceae species present (grey scale); Lamiaceae genes per clade (log scale).
@@ -47,6 +47,8 @@ python3 05_mada_check.py out/Clade76_genes.tsv annevo_proteins out/Clade76_mada.
 The optional last argument of step 3 sets the root: `midpoint` (display only) or a clade used as outgroup. `Clade18` (the TNL/RNL clade, which also contains the *Klebsormidium* sequence) roots the tree between TNL/RNL and the CNL clades, which is the root supported by the full NB-ARC phylogeny.
 
 The first argument of script 03 is the folder holding the step 1 outputs (prefix `refs`).
+
+Paths in the examples (`out/`, `annevo_proteins/`, `RefPlantNLR_proteins.fasta`) are those of the analysis server and must be adapted.
 
 ## Requirements
 
